@@ -1,0 +1,76 @@
+{
+    "students": [
+        { 
+            "name": "Tin Pham",
+            "photo": "Tin-Pham.png",
+            "role": "Lead Developer",
+            "about": "I am an enthusiastic software developer who is eager to see how software can enhance our daily lives.",
+            "email": "nhattin55@gmail.com",
+            "github": "https://github.com/tinpham5614",
+            "linkedin": "https://www.linkedin.com/in/tinpham5614/"
+        },
+        { 
+            "name": "Bennett Fife",
+            "photo": "Bennett-Fife.png",
+            "role": "Developer",
+            "about": "Aspiring application/software developer pursuing a bachelors in Application Development at North Seattle College.",
+            "email": "bennett.fife@gmail.com",
+            "github": "https://github.com/bennettsf",
+            "linkedin": "https://www.linkedin.com/in/bennett-fife/"
+        },
+        { 
+            "name": "Taylor Papke",
+            "photo": "Taylor-Papke.png",
+            "role": "Product Owner / Technical Project Manager",
+            "about": "NSC AD BAS 2024 Graduate. Passionate about leadership, teamwork and always doing our best!",
+            "email": "taylorpapke.student@gmail.com",
+            "github": "https://github.com/orgs/SeattleColleges/people/taylorpapke",
+            "linkedin": "https://www.linkedin.com/in/taylor-papke/"
+        },
+        { 
+            "name": "Jesse Caddell",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I have a passion for working on games and apps. I currently have a fascination with twitch applications! I am a music lover and can be found at live events often.",
+            "email": "jesse.caddell@wsu.edu",
+            "github": "https://github.com/JesseCaddell",
+            "linkedin": "https://www.linkedin.com/in/jesse-caddell-316086296/"
+        },
+        { 
+            "name": "Miguel Quintana Olivares",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I'm from Chile and I love dogs more than persons.",
+            "email": "miqo1385@gmail.com",
+            "github": "https://github.com/miqo1385",
+            "linkedin": "https://www.linkedin.com/in/miguelignacioquintana/"
+        },
+        { 
+            "name": "Intisar Osman",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I am currently majoring in Application Management at North Seattle College and plan to be a front-end developer. In my free time, I enjoy working on my crochet and crafts small business.",
+            "email": "intisar.osman@seattlecolleges.edu",
+            "github": "https://github.com/intisarosman1",
+            "linkedin": "https://www.linkedin.com/in/intisarosman/"
+        },
+        { 
+            "name": "Nicklas Di Pietro",
+            "photo": "anon-profile-image.png",
+            "role": "Technical Project Manager",
+            "about": "I am a dedicated Software Developer fueled by an insatiable appetite for growth, both professionally and personally. I find joy in the journey of mastering both realms. Leveraging my knack for communication, I specialize in translating complex technical concepts into digestible insights for clients, ensuring clarity and comfort in every interaction. Beyond coding and problem-solving, you'll often find me on an adventure with my growing family or engaging in various game sessions during my downtime.",
+            "email": "nicklasdipietro@gmail.com",
+            "github": "https://github.com/Seiyaroo",
+            "linkedin": "https://www.linkedin.com/in/nicklasdipietro/"
+        },
+        { 
+            "name": "Hanan Osman",
+            "photo": "anon-profile-image.png",
+            "role": "Product Owner",
+            "about": "I'm a senior in the AD BAS program at North Seattle College who aspires to be a front-end developer. My hobbies consist of reading, cafe-hopping, crocheting, gaming, and watching movies/shows.",
+            "email": "hanan.osman@seattlecolleges.edu",
+            "github": "https://github.com/heosman",
+            "linkedin": "https://www.linkedin.com/in/hanan-osman/"
+        }
+    ]
+}
