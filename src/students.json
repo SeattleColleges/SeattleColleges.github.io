@@ -314,6 +314,15 @@
             "email": "miqo1385@gmail.com",
             "github": "https://github.com/miqo1385",
             "linkedin": "https://www.linkedin.com/in/miguelignacioquintana/"
+        },
+        { 
+            "name": "Lilith Caldwell",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "",
+            "github": "https://github.com/MaddasaHatter",
+            "linkedin": ""
         }
     ]
 }
