@@ -1,22 +1,13 @@
 {
     "students": [
         { 
-            "name": "Tin Pham",
-            "photo": "Tin-Pham.png",
-            "role": "Lead Developer",
-            "about": "I am an enthusiastic software developer who is eager to see how software can enhance our daily lives.",
-            "email": "nhattin55@gmail.com",
-            "github": "https://github.com/tinpham5614",
-            "linkedin": "https://www.linkedin.com/in/tinpham5614/"
-        },
-        { 
-            "name": "Bennett Fife",
-            "photo": "Bennett-Fife.png",
-            "role": "Developer",
-            "about": "Aspiring application/software developer pursuing a bachelors in Application Development at North Seattle College.",
-            "email": "bennett.fife@gmail.com",
-            "github": "https://github.com/bennettsf",
-            "linkedin": "https://www.linkedin.com/in/bennett-fife/"
+            "name": "E Brink",
+            "photo": "anon-profile-image.png",
+            "role": "Technical Program Manager",
+            "about": "",
+            "email": "brinkbrink@gmail.com",
+            "github": "https://github.com/brinkbrink",
+            "linkedin": ""
         },
         { 
             "name": "Taylor Papke",
@@ -26,33 +17,6 @@
             "email": "taylorpapke.student@gmail.com",
             "github": "https://github.com/orgs/SeattleColleges/people/taylorpapke",
             "linkedin": "https://www.linkedin.com/in/taylor-papke/"
-        },
-        { 
-            "name": "Jesse Caddell",
-            "photo": "anon-profile-image.png",
-            "role": "Developer",
-            "about": "I have a passion for working on games and apps. I currently have a fascination with twitch applications! I am a music lover and can be found at live events often.",
-            "email": "jesse.caddell@wsu.edu",
-            "github": "https://github.com/JesseCaddell",
-            "linkedin": "https://www.linkedin.com/in/jesse-caddell-316086296/"
-        },
-        { 
-            "name": "Miguel Quintana Olivares",
-            "photo": "anon-profile-image.png",
-            "role": "Developer",
-            "about": "I'm from Chile and I love dogs more than persons.",
-            "email": "miqo1385@gmail.com",
-            "github": "https://github.com/miqo1385",
-            "linkedin": "https://www.linkedin.com/in/miguelignacioquintana/"
-        },
-        { 
-            "name": "Intisar Osman",
-            "photo": "anon-profile-image.png",
-            "role": "Developer",
-            "about": "I am currently majoring in Application Management at North Seattle College and plan to be a front-end developer. In my free time, I enjoy working on my crochet and crafts small business.",
-            "email": "intisar.osman@seattlecolleges.edu",
-            "github": "https://github.com/intisarosman1",
-            "linkedin": "https://www.linkedin.com/in/intisarosman/"
         },
         { 
             "name": "Nicklas Di Pietro",
@@ -71,6 +35,285 @@
             "email": "hanan.osman@seattlecolleges.edu",
             "github": "https://github.com/heosman",
             "linkedin": "https://www.linkedin.com/in/hanan-osman/"
+        },
+        { 
+            "name": "Keiffer Tan",
+            "photo": "anon-profile-image.png",
+            "role": "Product Owner",
+            "about": "",
+            "email": "keiffercraig.tan@seattlecolleges.edu",
+            "github": "https://github.com/keiffer213",
+            "linkedin": ""
+        },
+        { 
+            "name": "Tin Pham",
+            "photo": "Tin-Pham.png",
+            "role": "Lead Developer",
+            "about": "I am an enthusiastic software developer who is eager to see how software can enhance our daily lives.",
+            "email": "nhattin55@gmail.com",
+            "github": "https://github.com/tinpham5614",
+            "linkedin": "https://www.linkedin.com/in/tinpham5614/"
+        },
+        { 
+            "name": "Robel Hailu",
+            "photo": "anon-profile-image.png",
+            "role": "Lead Developer",
+            "about": "",
+            "email": "robel.hailu@seattlecolleges.edu",
+            "github": "https://github.com/Robel-003",
+            "linkedin": ""
+        },
+        { 
+            "name": "Jeremy Ward",
+            "photo": "anon-profile-image.png",
+            "role": "Lead Developer",
+            "about": "",
+            "email": "jeremy.ward@gmail.com",
+            "github": "https://github.com/Exochos",
+            "linkedin": ""
+        },
+        { 
+            "name": "Nahom Worku",
+            "photo": "anon-profile-image.png",
+            "role": "Lead Developer",
+            "about": "",
+            "email": "nahom.worku2015@gmail.com",
+            "github": "https://github.com/NahomAlemu",
+            "linkedin": ""
+        },
+        { 
+            "name": "Intisar Osman",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I am currently majoring in Application Management at North Seattle College and plan to be a front-end developer. In my free time, I enjoy working on my crochet and crafts small business.",
+            "email": "intisar.osman@seattlecolleges.edu",
+            "github": "https://github.com/intisarosman1",
+            "linkedin": "https://www.linkedin.com/in/intisarosman/"
+        },
+        { 
+            "name": "Isaac J",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "isaac.jimenez@seattlecolleges.edu",
+            "github": "https://github.com/IsaacJrTypes",
+            "linkedin": ""
+        },
+        { 
+            "name": "Cameron Shimmin",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "cameron.shimmin@seattlecolleges.edu",
+            "github": "https://github.com/cshimm",
+            "linkedin": ""
+        },
+        { 
+            "name": "Muhammadou Drammeh",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "muhammadou1drammeh@gmail.com",
+            "github": "https://github.com/MuhammadNSC",
+            "linkedin": ""
+        },
+        { 
+            "name": "Nickolas Ramirez",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "nickolasram@gmail.com",
+            "github": "https://github.com/nickolasram",
+            "linkedin": ""
+        },
+        { 
+            "name": "Ali Sharif",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "alisharif29@gmail.com",
+            "github": "https://github.com/Ali-7s",
+            "linkedin": ""
+        },
+        { 
+            "name": "Kai Manasse",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "kaimanasse15@gmail.com",
+            "github": "https://github.com/kaimanasse15",
+            "linkedin": ""
+        },
+        { 
+            "name": "Kyle Kennedy",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "kylekenne@gmail.com",
+            "github": "https://github.com/kkennedy-gh",
+            "linkedin": ""
+        },
+        { 
+            "name": "Bennett Fife",
+            "photo": "Bennett-Fife.png",
+            "role": "Developer",
+            "about": "Aspiring application/software developer pursuing a bachelors in Application Development at North Seattle College.",
+            "email": "bennett.fife@gmail.com",
+            "github": "https://github.com/bennettsf",
+            "linkedin": "https://www.linkedin.com/in/bennett-fife/"
+        },
+        { 
+            "name": "Marco Bejarano Oseguera",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "Marco.bejaranooseg1@seattlecolleges.edu",
+            "github": "https://github.com/Bejarano03",
+            "linkedin": ""
+        },
+        { 
+            "name": "Holly Judge",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "Holly.Judge@Seattlecolleges.edu",
+            "github": "https://github.com/Aki047",
+            "linkedin": ""
+        },
+        { 
+            "name": "Edwin Ho",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "edwinh300@gmail.com",
+            "github": "https://github.com/krayzieeddi",
+            "linkedin": ""
+        },
+        { 
+            "name": "Troy Pham",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "phamminhtuong2003@yahoo.com",
+            "github": "https://github.com/TuongPhamM",
+            "linkedin": ""
+        },
+        { 
+            "name": "Joy Zhang",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "joyzhangxran@gmail.com",
+            "github": "https://github.com/JoyZhang2023",
+            "linkedin": ""
+        },
+        { 
+            "name": "Omar Garmela",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "omar.garmela@seattlecolleges.edu",
+            "github": "https://github.com/ogarmela",
+            "linkedin": ""
+        },
+        { 
+            "name": "Asfand Tanwer",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "asfandtanwer@yahoo.com",
+            "github": "https://github.com/Asfand00",
+            "linkedin": ""
+        },
+        { 
+            "name": "Bradley Charles",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "bradley.charles@seattlecolleges.edu",
+            "github": "https://github.com/BradleyCharles",
+            "linkedin": ""
+        },
+        { 
+            "name": "Nicholas Wade Miller",
+            "photo": "Nicholas-Wade-Miller.png",
+            "role": "Developer",
+            "about": "I have had a lot of varied interests in my life, including a love for computers and technology that started from a young age. I find that being a part of the Application Development program is a great fit for me. Though I may not know as much as a lot of my peers, I thoroughly enjoy the challenge and stepping into a realm where being a perpetual student is a must!",
+            "email": "nwmiller.516@gmail.com",
+            "github": "https://github.com/nwm516",
+            "linkedin": "https://www.linkedin.com/in/nw-miller/"
+        },
+        { 
+            "name": "Diego Cano",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "dcano2810@gmail.com",
+            "github": "https://github.com/Diego-Cano",
+            "linkedin": ""
+        },
+        { 
+            "name": "Alas Ali",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "calasocali@outlook.com",
+            "github": "https://github.com/alasali1",
+            "linkedin": ""
+        },
+        { 
+            "name": "Lars Swenson",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "lars.swenson@gmail.com",
+            "github": "https://github.com/larsswenson",
+            "linkedin": ""
+        },
+        { 
+            "name": "Nha Pham",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "phamminhnha2003@gmail.com",
+            "github": "https://github.com/nhapham03",
+            "linkedin": ""
+        },
+        { 
+            "name": "Luiz Ramos",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "luiz.matthew.ramos@gmail.com",
+            "github": "https://github.com/alzavio",
+            "linkedin": ""
+        },
+        { 
+            "name": "B. Biruk",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "",
+            "email": "biruk.beyene@seattlecolleges.edu",
+            "github": "https://github.com/gitbiruk2010",
+            "linkedin": ""
+        },
+        { 
+            "name": "Jesse Caddell",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I have a passion for working on games and apps. I currently have a fascination with twitch applications! I am a music lover and can be found at live events often.",
+            "email": "jesse.caddell@wsu.edu",
+            "github": "https://github.com/JesseCaddell",
+            "linkedin": "https://www.linkedin.com/in/jesse-caddell-316086296/"
+        },
+        { 
+            "name": "Miguel Quintana Olivares",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "I'm from Chile and I love dogs more than persons.",
+            "email": "miqo1385@gmail.com",
+            "github": "https://github.com/miqo1385",
+            "linkedin": "https://www.linkedin.com/in/miguelignacioquintana/"
         }
     ]
 }
