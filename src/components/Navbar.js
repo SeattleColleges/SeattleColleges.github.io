@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import NSCADLOGO from '../images/nsc-app-dev-color.svg';
+import NSCADLOGO from '../images/nsc-app-dev-color.png';
 
 const Navbar =()=>{
     return (
