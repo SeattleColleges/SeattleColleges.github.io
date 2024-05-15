@@ -110,12 +110,12 @@
         },
         { 
             "name": "Muhammadou Drammeh",
-            "photo": "anon-profile-image.png",
+            "photo": "Muhammadou-Drammeh.png",
             "role": "Developer",
-            "about": "",
+            "about": "I'm Muhammadou Drammeh, a North Seattle College alumnus with a Bachelor of Applied Science in Application Development. My goal is to thrive as a software engineer at a top-tier firm, where I can apply my passion for technology to innovate and create meaningful solutions.",
             "email": "muhammadou1drammeh@gmail.com",
             "github": "https://github.com/MuhammadNSC",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/muhammadoudrammeh/"
         },
         { 
             "name": "Nickolas Ramirez",
@@ -217,13 +217,13 @@
             "linkedin": ""
         },
         { 
-            "name": "Asfand Tanwer",
-            "photo": "anon-profile-image.png",
+            "name": "Asfandyar Tanwer",
+            "photo": "Asfand-Tanwer.png",
             "role": "Developer",
-            "about": "",
+            "about": "Hello, my name is Asfandyar Tanwer, I'm a student in the Application development program for North Seattle college and have been going to NSC for several years now. When I'm not coding or studying, I like to play video games, watch movies/TV and anime. Just like in coding, I love to problem-solve and strategize, which is why I have played video games since I was little. I hope to achieve great skills in this program to where I can apply them to real-world projects and have a good career. ",
             "email": "asfandtanwer@yahoo.com",
             "github": "https://github.com/Asfand00",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/asfandyar-tanwer-b85514289/"
         },
         { 
             "name": "Bradley Charles",
