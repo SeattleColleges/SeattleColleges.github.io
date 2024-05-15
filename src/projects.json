@@ -1,0 +1,29 @@
+{
+    "projects":[
+        {
+            "title": "Belinda's Closet",
+            "screenshots": ["need_screen_shot_here.jpg"],
+            "video": "url_to_video_here",
+            "about": "This is where we will give a brief description of the project",
+            "liveDemo": "url_to_live_demo",
+            "github": ["https://github.com/SeattleColleges/belindas-closet-nextjs", "https://github.com/SeattleColleges/belindas-closet-nestjs"]
+        },
+        {
+            "title": "NSC Events",
+            "screenshots": ["need_screen_shot_here.jpg"],
+            "video": "url_to_video_here",
+            "about": "North Seattle College (NSC) provides a dynamic range of opportunities for students seeking engagement in campus life. This encompasses a diverse selection of events sponsored by Student Leadership and faculty, encompassing both entertaining and informative gatherings. Additionally, students can participate in thought-provoking lectures, community meetings, captivating library exhibits, and events tailored for transfer students.",
+            "liveDemo": "url_to_live_demo",
+            "github": ["https://github.com/SeattleColleges/nsc-events", "https://github.com/SeattleColleges/nsc-events-nextjs", "https://github.com/SeattleColleges/nsc-events-nestjs", "https://github.com/SeattleColleges/nsc-events-android"] 
+        },
+        {
+            "title": "Pelletier Construction Group",
+            "screenshots": ["need_screen_shot_here.jpg"],
+            "video": "url_to_video_here",
+            "about": "This is where we will give a brief description of the project",
+            "liveDemo": "url_to_live_demo",
+            "github": ["https://github.com/PelletierConstructionGroup/PelletierConstructionGroup.github.io"]
+        }
+
+    ]
+}
