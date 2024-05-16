@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import './index.css';
 import Main from './pages/Main'
 import Contact from './pages/Contact'
+import About from './pages/About'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
             <Route exact path="/" element={<Navigate to="/Home" />} />
             <Route path='/Home' element={<Main />} />
             <Route path='/Contact' element={<Contact />} />
+            <Route path='/About' element={<About />} />
         </Routes>
     </Router>
   );
