@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import Main from './pages/Main'
+import Contact from './pages/Contact'
 import About from './pages/About'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Routes>
             <Route exact path="/" element={<Navigate to="/Home" />} />
             <Route path='/Home' element={<Main />} />
+            <Route path='/Contact' element={<Contact />} />
             <Route path='/About' element={<About />} />
         </Routes>
     </Router>
