@@ -1,13 +1,13 @@
 {
     "students": [
         { 
-            "name": "E Brink",
-            "photo": "anon-profile-image.png",
+            "name": "Emily Brink",
+            "photo": "Emily-Brink.png",
             "role": "Technical Program Manager",
-            "about": "",
+            "about": "Passionate about research and data driven collaborative approaches to technical project and program management.",
             "email": "brinkbrink@gmail.com",
             "github": "https://github.com/brinkbrink",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/eebrink/"
         },
         { 
             "name": "Taylor Papke",
@@ -20,7 +20,7 @@
         },
         { 
             "name": "Nicklas Di Pietro",
-            "photo": "anon-profile-image.png",
+            "photo": "Nicklas-Di-Pietro.png",
             "role": "Technical Project Manager",
             "about": "I am a dedicated Software Developer fueled by an insatiable appetite for growth, both professionally and personally. I find joy in the journey of mastering both realms. Leveraging my knack for communication, I specialize in translating complex technical concepts into digestible insights for clients, ensuring clarity and comfort in every interaction. Beyond coding and problem-solving, you'll often find me on an adventure with my growing family or engaging in various game sessions during my downtime.",
             "email": "nicklasdipietro@gmail.com",
@@ -101,12 +101,12 @@
         },
         { 
             "name": "Cameron Shimmin",
-            "photo": "anon-profile-image.png",
+            "photo": "Cameron-Shimmin.png",
             "role": "Developer",
-            "about": "",
+            "about": "Skilled Software Engineer with a robust understanding of languages and frameworks such as Node.js, React, Java, and more. Expertise spans Java, Web, and Mobile App Development, in addition to Cloud Computing.",
             "email": "cameron.shimmin@seattlecolleges.edu",
             "github": "https://github.com/cshimm",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/cameronshimmin/"
         },
         { 
             "name": "Muhammadou Drammeh",
@@ -139,10 +139,10 @@
             "name": "Kai Manasse",
             "photo": "anon-profile-image.png",
             "role": "Developer",
-            "about": "",
+            "about": "I am interesting on the Web Development.",
             "email": "kaimanasse15@gmail.com",
             "github": "https://github.com/kaimanasse15",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/k-m-3729a4253/"
         },
         { 
             "name": "Kyle Kennedy",
@@ -199,13 +199,13 @@
             "linkedin": ""
         },
         { 
-            "name": "Joy Zhang",
+            "name": "Xinran Zhang",
             "photo": "anon-profile-image.png",
             "role": "Developer",
-            "about": "",
+            "about": "Detail and result oriented software engineer with an emphasis in website development and database management.",
             "email": "joyzhangxran@gmail.com",
             "github": "https://github.com/JoyZhang2023",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/xinran-zhang-9100102b1"
         },
         { 
             "name": "Omar Garmela",
@@ -250,25 +250,25 @@
             "about": "Hi, I'm Diego! I'm a 24-year-old student at North Seattle College, where I'm diving deep into programming and computer science. Originally from Venezuela, I've embraced the vibrant culture of Seattle while balancing my studies with my job as a server at bar. My passion for technology drives me to constantly learn and improve my skills. When I'm not coding or working, I enjoy outdoor activities and staying fit.  Let's connect and collaborate on exciting projects!",
             "email": "dcano2810@gmail.com",
             "github": "https://github.com/Diego-Cano",
-            "linkedin": "www.linkedin.com/in/diegocanousa"
+            "linkedin": "https://www.linkedin.com/in/diegocanousa"
         },
         { 
             "name": "Alas Ali",
             "photo": "anon-profile-image.png",
             "role": "Developer",
-            "about": "",
+            "about": "My name is Alas Ali. I am a student in the Application Development program of NSC.  I like boxing, music, and hiking sometimes.",
             "email": "calasocali@outlook.com",
             "github": "https://github.com/alasali1",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/alas-ali-66bb0a19a/"
         },
         { 
             "name": "Lars Swenson",
-            "photo": "anon-profile-image.png",
+            "photo": "Lars-Swenson.png",
             "role": "Developer",
-            "about": "",
+            "about": "Born and raised in Seattle, I recently majored in web development at Seattle Central College and am currently enrolled in the application development bachelor's program at North Seattle College.",
             "email": "lars.swenson@gmail.com",
             "github": "https://github.com/larsswenson",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/lars-swenson/"
         },
         { 
             "name": "Nha Minh Pham",
@@ -289,10 +289,10 @@
             "linkedin": "https://www.linkedin.com/in/luizrm/"
         },
         { 
-            "name": "B. Biruk",
+            "name": "Biruk Beyene",
             "photo": "anon-profile-image.png",
             "role": "Developer",
-            "about": "",
+            "about": "Hi, my name is Biruk. I am a SharePoint Developer @ Pokémon. I love exploring new places, travelling, learning new things, and spending time with family and friends. In my free time, you can find me working on cars, hiking, or working on music production.",
             "email": "biruk.beyene@seattlecolleges.edu",
             "github": "https://github.com/gitbiruk2010",
             "linkedin": ""
@@ -323,6 +323,15 @@
             "email": "",
             "github": "https://github.com/MaddasaHatter",
             "linkedin": ""
+        },
+        { 
+            "name": "Omar Aden",
+            "photo": "anon-profile-image.png",
+            "role": "Developer",
+            "about": "Omar Aden, I'm doing a bachelor's degree in application development. I will graduate this summer",
+            "email": "",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/omar-Aden/"
         }
     ]
 }
