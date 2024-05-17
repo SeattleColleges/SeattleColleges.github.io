@@ -4,8 +4,8 @@
             "title": "Belinda's Closet",
             "screenshots": ["need_screen_shot_here.jpg"],
             "video": "url_to_video_here",
-            "about": "These frontend applications, complemented by a shared backend app supporting data and connected to cloud services, are strategically designed. Their primary focus is to empower staff to efficiently manage and update Belinda’s Closet inventory, maintaining the organization's commitment to serving the community. The user interface (UI) aims not only to showcase available items in the store but also to seamlessly connect with the backend, facilitating smooth processing of incoming and outgoing inventory through MongoDB.",
-            "liveDemo": "url_to_live_demo",
+            "about": "This is where we will give a brief description of the project",
+            "liveDemo": "https://youtu.be/0t_JNORHuo0?si=SNGgy8nzFxPHyGCZ",
             "github": ["https://github.com/SeattleColleges/belindas-closet-nextjs", "https://github.com/SeattleColleges/belindas-closet-nestjs"]
         },
         {
@@ -13,12 +13,12 @@
             "screenshots": ["need_screen_shot_here.jpg"],
             "video": "url_to_video_here",
             "about": "North Seattle College (NSC) provides a dynamic range of opportunities for students seeking engagement in campus life. This encompasses a diverse selection of events sponsored by Student Leadership and faculty, encompassing both entertaining and informative gatherings. Additionally, students can participate in thought-provoking lectures, community meetings, captivating library exhibits, and events tailored for transfer students.",
-            "liveDemo": "url_to_live_demo",
+            "liveDemo": "https://youtube.com/shorts/M5jzwP3tuek?si=P2R_sEmKGV_V1_Yi",
             "github": ["https://github.com/SeattleColleges/nsc-events", "https://github.com/SeattleColleges/nsc-events-nextjs", "https://github.com/SeattleColleges/nsc-events-nestjs", "https://github.com/SeattleColleges/nsc-events-android"] 
         },
         {
             "title": "Pelletier Construction Group",
-            "screenshots": ["need_screen_shot_here.jpg"],
+            "screenshots": ["placeholder.jpg"],
             "video": "url_to_video_here",
             "about": "This is where we will give a brief description of the project",
             "liveDemo": "url_to_live_demo",
