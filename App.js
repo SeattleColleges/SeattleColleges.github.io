@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import PortfolioPage from './pages/PortfolioPage';
+import StudentsPage from './pages/StudentsPage';
 import PlaceholderPage from './components/PlaceholderPage';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* Uncomment the line below to view the placeholder page */}
       {/* <PlaceholderPage /> */}
-      <PortfolioPage />
+      <StudentsPage />
     </div>
   );
 }

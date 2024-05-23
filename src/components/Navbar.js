@@ -8,7 +8,7 @@ const Navbar =()=>{
             <Link style={{"color": "white"}}>Contact</Link>
             <Link  style={{"color": "white"}}>About</Link>
             <Link to={"/Portfolio"} style={{"color": "white"}}>Portfolio</Link>
-            <Link  style={{"color": "white"}}>Students</Link>
+            <Link to={"/Students"} style={{"color": "white"}}>Students</Link>
         </div>
     )
 }

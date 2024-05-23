@@ -5,7 +5,7 @@ const PlaceholderPage = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>Coming Soon...</h1>
-      <p style={styles.text}>Our portfolio page is under construction. Please check back soon!</p>
+      <p style={styles.text}>Our students page is under construction. Please check back soon!</p>
     </div>
   );
 };
