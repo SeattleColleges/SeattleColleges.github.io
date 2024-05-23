@@ -5,7 +5,7 @@ import Student from '../components/Student';
 const students = [
   {
     name: 'Alice Johnson',
-    photo: 'https://via.placeholder.com/100',
+    photo: 'anon-profile-image.png',
     about: 'Alice is a computer science major with a passion for AI.',
     email: 'alice@example.com',
     github: 'https://github.com/alice',
@@ -13,7 +13,7 @@ const students = [
   },
   {
     name: 'Bob Smith',
-    photo: 'https://via.placeholder.com/100',
+    photo: 'Bennett-Fife.png',
     about: 'Bob is a software engineer who loves open source projects.',
     email: 'bob@example.com',
     github: 'https://github.com/bob',

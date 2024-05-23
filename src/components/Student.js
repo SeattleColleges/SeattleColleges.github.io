@@ -4,7 +4,7 @@ import React from 'react';
 const Student = ({ name, photo, about, email, github, linkedin }) => {
   return (
     <div style={styles.container}>
-      <img src={photo} alt={name} style={styles.photo} />
+      <img src={require('../images/students/'+photo)} alt={name} style={styles.photo} />
       <h2 style={styles.name}>{name}</h2>
       <p style={styles.about}>{about}</p>
       <p style={styles.contact}><a href={`mailto:${email}`} style={styles.link}>{email}</a></p>
