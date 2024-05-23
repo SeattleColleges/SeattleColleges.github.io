@@ -7,7 +7,7 @@ const Navbar =()=>{
             <Link to={"/"}><img src={NSCADLOGO} alt="nsc app dev logo" style={{"height": "100%"}} /></Link>
             <Link style={{"color": "white"}}>Contact</Link>
             <Link  style={{"color": "white"}}>About</Link>
-            <Link  style={{"color": "white"}}>Portfolio</Link>
+            <Link to={"/Portfolio"} style={{"color": "white"}}>Portfolio</Link>
             <Link  style={{"color": "white"}}>Students</Link>
         </div>
     )
