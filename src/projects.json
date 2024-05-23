@@ -2,7 +2,7 @@
     "projects":[
         {
             "title": "Belinda's Closet",
-            "screenshots": ["need_screen_shot_here.jpg"],
+            "screenshots": ["archived_events_admins_and_creators.png", "create_event_page_bottom.png", "create_event_page_middle.png", "create_event_page_top.png", "dashboard_page_admin.png", "dashboard_page_creators.png", "edit_user_role_page_admins.png", "event_detail_page_admin_creator.png", "event_detail_page_background_mockup.png", "event_detail_page_not_signed_in.png", "forgot_password_page.png", "home_page_not_signed_in_scrolled.png", "home_page_not_signed_in.png", "home_page_signed_in_as_admin.png", "home_page_signed_in_as_user.png", "load_more_events_mockup.png", "sign_in_page.png", "sign_up_page.png", "view_my_events_page_admin_and_creators.png"],
             "video": "url_to_video_here",
             "about": "This is where we will give a brief description of the project",
             "liveDemo": "https://youtu.be/0t_JNORHuo0?si=SNGgy8nzFxPHyGCZ",
@@ -10,9 +10,9 @@
         },
         {
             "title": "NSC Events",
-            "screenshots": ["need_screen_shot_here.jpg"],
+            "screenshots": ["placeholder.jpg"],
             "video": "url_to_video_here",
-            "about": "North Seattle College (NSC) provides a dynamic range of opportunities for students seeking engagement in campus life. This encompasses a diverse selection of events sponsored by Student Leadership and faculty, encompassing both entertaining and informative gatherings. Additionally, students can participate in thought-provoking lectures, community meetings, captivating library exhibits, and events tailored for transfer students.",
+            "about": "The NSC Events web application allows users to view events hosted by the Student Leadership team and faculty at North Seattle College. Each event can be clicked to view more details about that event. Users can sign up and sign in for the application, which would give them access to certain features, such as adding their attendance to events. Users with certain roles, such as admins and creators, can also create, edit, delete, and archive events. In addition, admin users can also edit the roles of other users. NSC-Event's frontend application was built using NextJS and React. It leverages TypeScript and follows RESTful API principles. The server-side backend application was built using NestJS and was also written with TypeScript. Event data and user data is stored using a MongoDB database.",
             "liveDemo": "https://youtube.com/shorts/M5jzwP3tuek?si=P2R_sEmKGV_V1_Yi",
             "github": ["https://github.com/SeattleColleges/nsc-events", "https://github.com/SeattleColleges/nsc-events-nextjs", "https://github.com/SeattleColleges/nsc-events-nestjs", "https://github.com/SeattleColleges/nsc-events-android"] 
         },
