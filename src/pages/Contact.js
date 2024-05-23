@@ -1,9 +1,9 @@
 function Contact() {
-    return (
-      <div>
-        <p>Placeholder Contact Page</p>
-      </div>
-    );
-  }
-  
-  export default Contact;
+  return (
+    <div>
+      <p>Placeholder Contact Page</p> {/* Start here */}
+    </div>
+  );
+}
+
+export default Contact;
