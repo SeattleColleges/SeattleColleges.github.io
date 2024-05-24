@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* ==========
  Universal Rules
  ========== */
@@ -15,18 +13,10 @@
   box-sizing: border-box;
 }
 body{
+  font-family: sans-serif;
 }
 
-/* ==========
- Typography
- ========== */
- .banner>*>a{
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  font-size: 1.25em;
-  font-weight: 500;
-}
+
  /* ==========
 navbar
  ========== */
@@ -34,6 +24,98 @@ navbar
 /* ==========
  home
  ========== */
+ .homepage-content{
+  display: flex;
+  flex-direction: column;
+}
+ /* ======= hero ======= */
+.hero__wrapper{
+  height: 70vh;
+  background-image: url("./images/north-trees-campus.jpg");
+}
+.hero{
+   height: 100%;
+  background: linear-gradient(125deg, var(--primary-blue) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 100%);
+}
+.hero__text{
+  padding-inline-start: 5vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.hero__text__heading{
+  font-weight: 700;
+  font-size: 4em;
+  color: white;
+  width: 13ch;
+  text-shadow: 0 0 0.2em black;
+}
+.hero__text__subheading{
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  width: 23ch;
+  text-shadow: 0 0 0.2em black;
+}
+/* ======= projects preview ======= */
+.proj-prev{
+  height: 70vh;
+  background-color: var(--bg-color);
+  background: linear-gradient(90deg, rgba(55,55,55,0) 0%, rgba(149,202,89,0) 18%, rgba(149,202,89,1) 69%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.proj-prev__text{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-inline-start: 5vw;
+}
+.proj-prev__text__heading{
+  font-size: 3rem;
+  font-weight: 700;
+  width: 13ch;
+}
+.proj-prev__text__subheading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  
+}
+.proj-prev__examples{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  padding-inline-end: 2.5vw;
+}
+.proj-prev__examples_entry{
+  height: 70%;
+  max-width: 700px;
+}
+.proj-prev__examples__photo{
+  height: 100%;
+  max-height: 100%;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+.proj-prev__examples_description{
+  font-style: italic;
+  text-align: end;
+}
+/* ======= student preview ======= */
+.student-prev{
+  height: 55vh;
+  background-image: url("./images/Arts_and_Sciences.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 77, 168, 0.85);
+}
+
 
  /* ==========
  contact
