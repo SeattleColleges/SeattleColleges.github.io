@@ -52,6 +52,13 @@ navbar
         width: 100% !important;
     }
 }
+.contact-button:active {
+    transition: all 0.125s ease-in-out;
+    background-color: rgb(209, 240, 196) !important;
+}
+.contact-button {
+    cursor: pointer;
+}
  /* ==========
  about
  ========== */
