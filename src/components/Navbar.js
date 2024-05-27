@@ -8,7 +8,7 @@ const Navbar =()=>{
         <div className="navbar" style={{
             display: "flex",
             flexDirection: "row",
-            height: "10vh",
+            height: "95px",
             gap: "1rem",
             backgroundColor: "#165db2",
             alignItems: "center"

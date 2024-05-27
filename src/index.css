@@ -38,7 +38,27 @@ navbar
  /* ==========
  contact
  ========== */
-
+@media (min-width: 900px) {
+    .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 900px) {
+    #contact-page-map {
+        margin-top: 5rem;
+        width: 100% !important;
+    }
+}
+.contact-button:active {
+    transition: all 0.125s ease-in-out;
+    background-color: rgb(209, 240, 196) !important;
+}
+.contact-button {
+    cursor: pointer;
+}
  /* ==========
  about
  ========== */
