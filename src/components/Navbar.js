@@ -10,7 +10,7 @@ const Navbar =()=>{
             flexDirection: "row",
             height: "10vh",
             gap: "1rem",
-            backgroundColor: "#165db2",
+            backgroundColor: "#004da8",
             alignItems: "center"
         }}>
             <Link to={"/"}>
