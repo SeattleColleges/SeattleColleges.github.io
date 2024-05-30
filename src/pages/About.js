@@ -21,12 +21,28 @@ function About() {
           <div
             style={{ fontSize: "48px", marginBottom: "2rem", fontWeight: 600 }}
           >
-            About us
+            North Seattle Application Development
+          </div>
+          <div>
+            <strong>Established in</strong> imperdiet dui accumsan sit amet. Non
+            pulvinar neque laoreet suspendisse interdum consectetur libero id
+            faucibus. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus.
+            In nibh mauris cursus mattis molestie a. Dignissim convallis aenean
+            et tortor at risus viverra.
+          </div>
+
+          <div>
+            <strong>Tellus in hac habitasse</strong> platea dictumst.
+            Ullamcorper eget nulla facilisi etiam dignissim. Mauris ultrices
+            eros in cursus turpis massa. Cras adipiscing enim eu turpis egestas
+            pretium aenean pharetra magna. Est placerat in egestas erat
+            imperdiet sed euismod. Faucibus vitae aliquet nec ullamcorper.
           </div>
           <div
             style={{
               ...flexParent,
               height: "100%",
+              backgroundColor: "blue",
             }}
           >
             <div style={flexChild} className={"col-sm-6"}></div>
