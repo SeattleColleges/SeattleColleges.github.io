@@ -4,6 +4,7 @@ import Portable from '../images/example-portable.png';
 import Desktop from '../images/example-desktop.png';
 import StudentThumbnail from "../components/StudentThumbnail";
 import studentData from '../students.json'
+import { FormComponent } from "../components/microComponents/contact/form";
 
 const studentDatafiltered = studentData.students.filter((item)=>item.photo!=="anon-profile-image.png");
 const studentDataSlice = studentDatafiltered.slice(0,16); 
@@ -53,6 +54,9 @@ function Main() {
           <Link className="student-prev__gallery__link" to={"/Students"}>Get to know our student developers</Link>
         </div>
           <p className="student-prev__quote">"The Quick Brown Fox Jumps Over the Lazy Dog" -Someone Somewhere</p>
+      </div>
+      <div className="contact-div">
+            <FormComponent />
       </div>
     </div>
   );
