@@ -2,7 +2,7 @@
     "projects":[
         {
             "title": "Belinda's Closet",
-            "screenshots": ["placeholder.jpg"],
+            "screenshots": ["home_page_dark.png", "home_page_light.png", "product_page_with_dropdown_dark.png", "product_page_with_dropdown_light.png", "sign_in_page_dark.png", "sign_in_page_light.png", "sign_up_page_dark.png", "sign_up_page_light.png"],
             "video": "https://belindascloset.com/",
             "about": "The Bachelor of Applied Science-Application Development department at NSC embraced Belinda’s Closet as a client in June 2023. The overarching objective is to develop a comprehensive web and mobile application that cater to the digital aspirations of our client and enhance the range of services offered to students. Our primary focus is to empower staff to efficiently manage and update Belinda’s Closet inventory, maintaining the organization's commitment to serving the community. Belinda's web-based frontend utilizes Typescript via NextJs. The mobile-based frontend is developed using React Expo. Current software and tools include: Next.js, Nest.js, React Expo, Postman, MongoDB, JWT and Google Cloud.",
             "liveDemo": "https://youtu.be/0t_JNORHuo0?si=SNGgy8nzFxPHyGCZ",
