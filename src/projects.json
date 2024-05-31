@@ -4,7 +4,7 @@
             "title": "Belinda's Closet",
             "screenshots": ["placeholder.jpg"],
             "video": "https://belindascloset.com/",
-            "about": "The Bachelor of Applied Science-Application Development department at NSC embraced Belinda’s Closet as a client in June 2023. The overarching objective has been to develop comprehensive web and Android applications that cater to the digital aspirations of our client and enhance the range of services offered to students. Belinda's web-based frontend utilizes Typescript via NextJs.The android-based frontend was developed using Kotlin within Android Studio. Current software and tools include: Next.js, Nest.js,  Android Studio, Postman, MongoDB, JWT and Google Cloud.",
+            "about": "The Bachelor of Applied Science-Application Development department at NSC embraced Belinda’s Closet as a client in June 2023. The overarching objective is to develop a comprehensive web and mobile application that cater to the digital aspirations of our client and enhance the range of services offered to students. Our primary focus is to empower staff to efficiently manage and update Belinda’s Closet inventory, maintaining the organization's commitment to serving the community. Belinda's web-based frontend utilizes Typescript via NextJs. The mobile-based frontend is developed using React Expo. Current software and tools include: Next.js, Nest.js, React Expo, Postman, MongoDB, JWT and Google Cloud.",
             "liveDemo": "https://youtu.be/0t_JNORHuo0?si=SNGgy8nzFxPHyGCZ",
             "github": ["https://github.com/SeattleColleges/belindas-closet-nextjs", "https://github.com/SeattleColleges/belindas-closet-nestjs"]
         },
