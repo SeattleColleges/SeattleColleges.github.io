@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 import NSC_Marquee from "../images/about/NSC_Marquee.jpg";
 
@@ -35,7 +36,7 @@ function About() {
             <div
               style={{
                 width: "70%",
-                fontSize: "56px",
+                fontSize: "3.5rem",
                 fontWeight: 600,
               }}
             >
@@ -54,7 +55,7 @@ function About() {
             <div
               style={{
                 ...flexChild,
-                fontSize: "24px",
+                fontSize: "1.5rem",
                 width: "80%",
               }}
             >
@@ -82,21 +83,11 @@ function About() {
         src={NSC_Marquee}
         alt="North Seattle College"
         style={{
+          width: "100%",
           display: "block",
         }}
       />
-      <div
-        style={{
-          backgroundColor: "#165db2",
-          height: "190px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          color: "gray",
-        }}
-      >
-        Placeholder Footer
-      </div>
+      <Footer />
     </>
   );
 }
