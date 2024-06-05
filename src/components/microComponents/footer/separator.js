@@ -2,11 +2,11 @@ export function Separator() {
   return (
     <div
       style={{
-        backgroundColor: "#666",
-        width: "100%",
+        backgroundColor: "#777",
+        width: "auto",
         height: ".1rem",
         marginTop: ".2rem",
-        marginBottom: ".1rem",
+        marginBottom: ".2rem",
       }}
     />
   );
