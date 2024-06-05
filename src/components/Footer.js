@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FooterLink } from "./microComponents/footer/footerLink";
+import { Separator } from "./microComponents/footer/separator";
 import NSCADLOGO from "../images/nsc-app-dev-color.png";
 
 const Footer = () => {
@@ -27,27 +29,39 @@ const Footer = () => {
           }}
         />
       </Link>
+
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          gap: "5rem",
-          backgroundColor: "white",
+          gap: "10rem",
+          //backgroundColor: "white",
         }}
       >
         <ul style={{ ...footerList }}>
-          <div style={{ ...footerCategory }}>Navigation</div>
-          <li>Contact</li>
-          <li>About</li>
-          <li>Students</li>
-          <li>Portfolio</li>
+          <h4 style={{ ...footerCategory }}>Navigation</h4>
+          <Separator />
+          <li>
+            <FooterLink name="Contact" />
+          </li>
+          <li>
+            <FooterLink name="About" />
+          </li>
+          <li>
+            <FooterLink name="Students" />
+          </li>
+          <li>
+            <FooterLink name="Portfolio" />
+          </li>
         </ul>
         <ul style={{ ...footerList }}>
-          <div style={{ ...footerCategory }}>category</div>
+          <h4 style={{ ...footerCategory }}>category</h4>
+          <Separator />
           <li>List item</li>
         </ul>
         <ul style={{ ...footerList }}>
-          <div style={{ ...footerCategory }}>category</div>
+          <h4 style={{ ...footerCategory }}>category</h4>
+          <Separator />
           <li>List item</li>
         </ul>
       </div>
@@ -64,10 +78,13 @@ const Footer = () => {
 
 const footerCategory = {
   fontWeight: 600,
+  color: "white",
 };
 
 const footerList = {
   listStyleType: "none",
+  fontWeight: 200,
+  color: "white",
 };
 
 export default Footer;
