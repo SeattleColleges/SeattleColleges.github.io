@@ -59,10 +59,10 @@ const Footer = () => {
           <h4 style={{ ...footerCategory }}>Contact Us</h4>
           <Separator />
           <Link
-            to={"mailto:support@example.com"}
+            to={"mailto:northseattle.appdev@gmail.com"}
             style={{ textDecoration: "none" }}
           >
-            <li style={{ ...footerList }}>email@email.com</li>
+            <li style={{ ...footerList }}>northseattle.appdev@gmail.com</li>
           </Link>
         </ul>
       </div>
