@@ -332,6 +332,15 @@
             "email": "",
             "github": "",
             "linkedin": "https://www.linkedin.com/in/omar-Aden/"
+        },
+        { 
+            "name": "Elida Ribeiro de Souza",
+            "photo": "Elida-Ribeiro-de-Souza.png",
+            "role": "Developer",
+            "about": "Hello! I'm Elida Ribeiro de Souza, a dedicated and passionate student currently pursuing a degree in Applied Development at North Seattle College. With a keen interest in software development, data science, artificial intelligence, data analysis, deep learning, and machine learning, I am constantly seeking opportunities to learn and grow. I have a strong foundation in JavaScript, React, Python, SQL, Java, NumPy, and pandas. I recently earned my Google TensorFlow certification, further solidifying my expertise in deep learning. In my free time, I enjoy cooking, coding deep learning projects, and hiking. I am excited to connect with like-minded individuals and contribute to meaningful projects that make a difference.",
+            "email": "",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/elida-ribeiro-de-souza-56505a53/"
         }
     ]
 }
