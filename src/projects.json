@@ -1,0 +1,29 @@
+{
+    "projects":[
+        {
+            "title": "Belinda's Closet",
+            "screenshots": ["home_page_dark.png", "home_page_light.png", "product_page_with_dropdown_dark.png", "product_page_with_dropdown_light.png", "sign_in_page_dark.png", "sign_in_page_light.png", "sign_up_page_dark.png", "sign_up_page_light.png"],
+            "video": "https://www.youtube.com/watch?v=3xoYKYMTpmU",
+            "about": "The Bachelor of Applied Science-Application Development department at NSC embraced Belinda’s Closet as a client in June 2023. The overarching objective is to develop a comprehensive web and mobile application that cater to the digital aspirations of our client and enhance the range of services offered to students. Our primary focus is to empower staff to efficiently manage and update Belinda’s Closet inventory, maintaining the organization's commitment to serving the community. Belinda's web-based frontend utilizes Typescript via NextJs. The mobile-based frontend is developed using React Expo. Current software and tools include: Next.js, Nest.js, React Expo, Postman, MongoDB, JWT and Google Cloud.",
+            "liveDemo": "https://belindascloset.com/",
+            "github": ["https://github.com/SeattleColleges/belindas-closet-nextjs", "https://github.com/SeattleColleges/belindas-closet-nestjs"]
+        },
+        {
+            "title": "NSC Events",
+            "screenshots": ["archived_events_admins_and_creators.png", "change_password_page.png", "create_event_page_bottom.png", "create_event_page_middle.png", "create_event_page_top.png", "dashboard_page_admin.png", "dashboard_page_creators.png", "edit_user_role_page_admins.png", "event_detail_page_admin_creator.png", "event_detail_page_background_mockup.png", "event_detail_page_not_signed_in.png", "forgot_password_page.png", "home_page_not_signed_in_scrolled.png", "home_page_not_signed_in.png", "home_page_signed_in_as_admin.png", "home_page_signed_in_as_user.png", "load_more_events_mockup.png", "sign_in_page.png", "sign_up_page.png", "view_my_events_page_admin_and_creators.png"],
+            "video": "https://www.youtube.com/watch?v=UsDbZNfDfo0",
+            "about": "The NSC Events web application allows users to view events hosted by the Student Leadership team and faculty at North Seattle College. Each event can be clicked to view more details about that event. Users can sign up and sign in for the application, which would give them access to certain features, such as adding their attendance to events. Users with certain roles, such as admins and creators, can also create, edit, delete, and archive events. In addition, admin users can also edit the roles of other users. NSC-Event's frontend application was built using NextJS and React. It leverages TypeScript and follows RESTful API principles. The server-side backend application was built using NestJS and was also written with TypeScript. Event data and user data is stored using a MongoDB database.",
+            "liveDemo": "https://northseattlecollegeevents.com/",
+            "github": ["https://github.com/SeattleColleges/nsc-events", "https://github.com/SeattleColleges/nsc-events-nextjs", "https://github.com/SeattleColleges/nsc-events-nestjs", "https://github.com/SeattleColleges/nsc-events-android"] 
+        },
+        {
+            "title": "Pelletier Construction Group",
+            "screenshots": ["placeholder.jpg"],
+            "video": "url_to_video_here",
+            "about": "This is where we will give a brief description of the project",
+            "liveDemo": "url_to_live_demo",
+            "github": ["https://github.com/PelletierConstructionGroup/PelletierConstructionGroup.github.io"]
+        }
+
+    ]
+}
