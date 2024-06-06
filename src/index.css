@@ -24,6 +24,15 @@ navbar
 /* ==========
  home
  ========== */
+.homepage-content,
+.portfolio-div,
+.student-prev,
+.contact-div{
+  max-width: 2200px;
+  margin: 0 auto;
+}
+
+
  .homepage-content{
   display: flex;
   flex-direction: column;
@@ -60,6 +69,14 @@ navbar
   width: 23ch;
   text-shadow: 0 0 0.2em black;
 }
+@media (max-width: 800px) {
+  .hero__text__heading{
+    font-size:3em;
+  }
+  .hero__text__subheading{
+    font-size: 1.25rem;
+  }
+}
 /* ======= projects preview ======= */
 .portfolio-div{
   height: 70vh;
@@ -68,6 +85,7 @@ navbar
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 .portfolio-div__flexcol{
   display: flex;
@@ -84,8 +102,7 @@ navbar
 .portfolio-div__flexcol__link{
   font-size: 1.5rem;
   font-weight: 600;
-  color: #000;
-  
+  color: #000; 
 }
 .portfolio-div__examples{
   height: 100%;
@@ -100,13 +117,39 @@ navbar
   max-width: 700px;
 }
 .portfolio-div__examples__photo{
-  height: 100%;
+  height: auto;
   max-height: 100%;
+  max-width: 100%;
   filter: drop-shadow(0 0 0.2rem black);
 }
 .portfolio-div__examples_description{
   font-style: italic;
   text-align: end;
+}
+@media (max-width: 1225px) {
+  .portfolio-div__examples{
+    padding-block-start: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .portfolio-div{
+    flex-direction: column;
+    height: fit-content;
+    padding-block: 2.5rem;
+    gap: 1rem;
+    align-items: center;
+  }
+  .portfolio-div__flexcol__heading{
+    width: 20ch;
+  }
+  .portfolio-div__examples{
+    width: 100%;
+    justify-content: space-around;
+    padding-inline: 1.5rem;
+  }
+  .portfolio-div__examples__photo{
+    max-height: 40vh;
+  }
 }
 /* ======= student preview ======= */
 .student-prev{
@@ -151,8 +194,82 @@ navbar
   gap: 1rem;
   max-width: calc(640px + 7rem);
 }
-
- /* ==========
+@media (max-width: 1225px) {
+  .student-prev{
+    height: fit-content;
+    padding-block: 5rem;
+    gap: 1rem;
+  }
+  .student-prev__gallery__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .student-prev__quote{
+    justify-self: center;
+  }
+  .student-prev__quote,
+  .student-prev__gallery{
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .student-prev{
+    flex-direction: column-reverse;
+    padding-block: 2.5rem;
+  }
+  .student-prev__gallery{
+    padding-inline-start: none;
+  }
+  .student-prev__quote{
+    font-size: 2rem;
+    max-width: 20ch;
+  }
+}
+/* ======= Main page contact ======= */
+.contact-div{
+  display: flex;
+  min-height: fit-content;
+  padding-block: 5rem;
+  justify-content: space-around;
+} 
+.contact-div__contact-wrapper{
+  max-height: 70%;
+  width: 45%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact-div__iframe{
+  width: 35%;
+  max-width: 600px;
+}
+.contact-div__p-title{
+  font-weight: 700;
+  font-size: 2rem;
+  position: relative;
+}
+.contact-div__p-title::before{
+  content: "Join the Program";
+  font-size: .825rem;
+  position: absolute;
+  top: -1rem;
+  color: grey;
+  font-weight: 300;
+}
+@media (max-width: 920px) {
+  .contact-div{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .contact-div__contact-wrapper{
+    width: 60%;
+  }
+  .contact-div__iframe{
+    width: 50%;
+  }
+  
+}
+/* ==========
  contact
  ========== */
 @media (min-width: 900px) {

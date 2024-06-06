@@ -4,6 +4,7 @@ import Portable from '../images/example-portable.png';
 import Desktop from '../images/example-desktop.png';
 import StudentThumbnail from "../components/StudentThumbnail";
 import studentData from '../students.json'
+import {Helmet} from "react-helmet";
 import { FormComponent } from "../components/microComponents/contact/form";
 
 const studentDatafiltered = studentData.students.filter((item)=>item.photo!=="anon-profile-image.png");
@@ -12,7 +13,10 @@ const studentDataSlice = studentDatafiltered.slice(0,16);
 function Main() {
   console.log(studentDatafiltered.length)
   return (
-    <div>
+    <>
+      <Helmet>
+        <title> NSC App Development </title>
+      </Helmet>
       <Navbar />
       <div className="homepage-content">
         <div className="hero__wrapper">
@@ -56,9 +60,22 @@ function Main() {
           <p className="student-prev__quote">"The Quick Brown Fox Jumps Over the Lazy Dog" -Someone Somewhere</p>
       </div>
       <div className="contact-div">
-            <FormComponent />
+        <div className="contact-div__contact-wrapper">
+          <p className="contact-div__p-title">
+            Looking for Help on Your Next Big Project?
+          </p>
+          <FormComponent />
+        </div>   
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10741.007374849207!2d-122.3326717!3d47.6989479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490140175955555%3A0x59c4d51ad68ba97!2sNorth%20Seattle%20College!5e0!3m2!1spt-PT!2sus!4v1716602425904!5m2!1spt-PT!2sus"
+            height="400"  allowFullScreen="" loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            id={"contact-page-map"}
+            title="mainpagemap"
+            className="contact-div__iframe"
+        />
       </div>
-    </div>
+    </>
   );
 }
 
