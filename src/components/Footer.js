@@ -15,7 +15,7 @@ const Footer = () => {
         gap: "5rem",
         backgroundColor: "#165db2",
         alignItems: "center",
-        justifyContent: "space-around",
+        justifyContent: "space-evenly",
       }}
     >
       <div
@@ -23,7 +23,7 @@ const Footer = () => {
           display: "flex",
           flexDirection: "row",
           width: "auto",
-          gap: "10rem",
+          gap: "5rem",
         }}
       >
         <ul style={{ ...footerList }}>
@@ -65,7 +65,17 @@ const Footer = () => {
             <li style={{ ...footerList }}>email@email.com</li>
           </Link>
         </ul>
+      </div>
 
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          width: "auto",
+          gap: "5rem",
+          alignItems: "center",
+        }}
+      >
         <ul style={{ ...footerList }}>
           <h4 style={{ ...footerCategory }}>Become a student</h4>
           <Separator />
@@ -80,17 +90,17 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-      </div>
 
-      <Link to={"https://northseattle.edu/"}>
-        <img
-          src={NSCTREEFROG}
-          alt="nsc app dev logo"
-          style={{
-            width: "11rem",
-          }}
-        />
-      </Link>
+        <Link to={"https://northseattle.edu/"}>
+          <img
+            src={NSCTREEFROG}
+            alt="nsc app dev logo"
+            style={{
+              width: "11rem",
+            }}
+          />
+        </Link>
+      </div>
     </div>
   );
 };
