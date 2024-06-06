@@ -55,10 +55,15 @@ const Footer = () => {
           </ul>
         </ul>
 
-        <ul style={{ ...footerList }}>
+        <ul>
           <h4 style={{ ...footerCategory }}>Contact Us</h4>
           <Separator />
-          <li>email@email.com</li>
+          <Link
+            to={"mailto:support@example.com"}
+            style={{ textDecoration: "none" }}
+          >
+            <li style={{ ...footerList }}>email@email.com</li>
+          </Link>
         </ul>
 
         <ul style={{ ...footerList }}>
