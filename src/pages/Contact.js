@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import {Helmet} from "react-helmet";
-import {FormComponent} from "../components/microComponents/contact/form";
+import {FormComponent} from "../components/form";
 // import {useState} from "react";
 // Commented out for now since useState is not being used
 
@@ -40,7 +40,7 @@ function Contact() {
     );
 }
 
-const flexChild= {
+export const flexChild= {
     position: "relative",
     width: "100%",
     minHeight: "1px",
@@ -48,7 +48,7 @@ const flexChild= {
     paddingLeft: "15px",
 }
 
-const flexParent= {
+export const flexParent= {
     display: "flex",
     flexWrap: "wrap",
 }
