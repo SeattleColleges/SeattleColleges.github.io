@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* ==========
  Universal Rules
  ========== */
@@ -15,18 +13,10 @@
   box-sizing: border-box;
 }
 body{
+  font-family: sans-serif;
 }
 
-/* ==========
- Typography
- ========== */
- .banner>*>a{
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  font-size: 1.25em;
-  font-weight: 500;
-}
+
  /* ==========
 navbar
  ========== */
@@ -34,8 +24,252 @@ navbar
 /* ==========
  home
  ========== */
+.homepage-content,
+.portfolio-div,
+.student-prev,
+.contact-div{
+  max-width: 2200px;
+  margin: 0 auto;
+}
 
- /* ==========
+
+ .homepage-content{
+  display: flex;
+  flex-direction: column;
+}
+ /* ======= hero ======= */
+.hero__wrapper{
+  height: 70vh;
+  background-image: url("./images/north-trees-campus.jpg");
+}
+.hero{
+   height: 100%;
+  background: linear-gradient(125deg, var(--primary-blue) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 100%);
+}
+.hero__text{
+  padding-inline-start: 5vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.hero__text__heading{
+  font-weight: 700;
+  font-size: 4em;
+  color: white;
+  width: 13ch;
+  text-shadow: 0 0 0.2em black;
+}
+.hero__text__subheading{
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  width: 23ch;
+  text-shadow: 0 0 0.2em black;
+}
+@media (max-width: 800px) {
+  .hero__text__heading{
+    font-size:3em;
+  }
+  .hero__text__subheading{
+    font-size: 1.25rem;
+  }
+}
+/* ======= projects preview ======= */
+.portfolio-div{
+  height: 70vh;
+  background-color: var(--bg-color);
+  background: linear-gradient(90deg, rgba(55,55,55,0) 0%, rgba(149,202,89,0) 18%, rgba(149,202,89,1) 69%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.portfolio-div__flexcol{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-inline-start: 5vw;
+}
+.portfolio-div__flexcol__heading{
+  font-size: 3rem;
+  font-weight: 700;
+  width: 13ch;
+}
+.portfolio-div__flexcol__link{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000; 
+}
+.portfolio-div__examples{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  padding-inline-end: 2.5vw;
+}
+.portfolio-div__examples_entry{
+  height: 70%;
+  max-width: 700px;
+}
+.portfolio-div__examples__photo{
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+.portfolio-div__examples_description{
+  font-style: italic;
+  text-align: end;
+}
+@media (max-width: 1225px) {
+  .portfolio-div__examples{
+    padding-block-start: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .portfolio-div{
+    flex-direction: column;
+    height: fit-content;
+    padding-block: 2.5rem;
+    gap: 1rem;
+    align-items: center;
+  }
+  .portfolio-div__flexcol__heading{
+    width: 20ch;
+  }
+  .portfolio-div__examples{
+    width: 100%;
+    justify-content: space-around;
+    padding-inline: 1.5rem;
+  }
+  .portfolio-div__examples__photo{
+    max-height: 40vh;
+  }
+}
+/* ======= student preview ======= */
+.student-prev{
+  height: 55vh;
+  background-image: url("./images/Arts_and_Sciences.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 77, 168, 0.85);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.student-prev__gallery{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-inline-start: 5vw;
+  gap: 1rem;
+}
+.student-thumbnail{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.student-prev__gallery__link{
+  font-weight: 600;
+  color: white;
+  font-size: 1.5rem;
+}
+.student-prev__quote{
+  flex-basis: 30%;
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  max-width: 15ch;
+}
+.student-prev__gallery__grid{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+  max-width: calc(640px + 7rem);
+}
+@media (max-width: 1225px) {
+  .student-prev{
+    height: fit-content;
+    padding-block: 5rem;
+    gap: 1rem;
+  }
+  .student-prev__gallery__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .student-prev__quote{
+    justify-self: center;
+  }
+  .student-prev__quote,
+  .student-prev__gallery{
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .student-prev{
+    flex-direction: column-reverse;
+    padding-block: 2.5rem;
+  }
+  .student-prev__gallery{
+    padding-inline-start: none;
+  }
+  .student-prev__quote{
+    font-size: 2rem;
+    max-width: 20ch;
+  }
+}
+/* ======= Main page contact ======= */
+.contact-div{
+  display: flex;
+  min-height: fit-content;
+  padding-block: 5rem;
+  justify-content: space-around;
+} 
+.contact-div__contact-wrapper{
+  max-height: 70%;
+  width: 45%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact-div__iframe{
+  width: 35%;
+  max-width: 600px;
+}
+.contact-div__p-title{
+  font-weight: 700;
+  font-size: 2rem;
+  position: relative;
+}
+.contact-div__p-title::before{
+  content: "Join the Program";
+  font-size: .825rem;
+  position: absolute;
+  top: -1rem;
+  color: grey;
+  font-weight: 300;
+}
+@media (max-width: 920px) {
+  .contact-div{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .contact-div__contact-wrapper{
+    width: 60%;
+  }
+  .contact-div__iframe{
+    width: 50%;
+  }
+  
+}
+/* ==========
  contact
  ========== */
 @media (min-width: 900px) {
