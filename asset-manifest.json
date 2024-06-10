@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fd750e2.css",
-    "main.js": "/static/js/main.481ed91d.js",
+    "main.css": "/static/css/main.30b27845.css",
+    "main.js": "/static/js/main.d7a895b8.js",
     "static/media/Nicklas-Di-Pietro.png": "/static/media/Nicklas-Di-Pietro.4189b07aa80ddf18f8fa.png",
     "static/media/Bennett-Fife.png": "/static/media/Bennett-Fife.e8f934627195f11bbea2.png",
     "static/media/Taylor-Papke.png": "/static/media/Taylor-Papke.17516c0aa6531bf8df9c.png",
@@ -11,22 +11,28 @@
     "static/media/Emily-Brink.png": "/static/media/Emily-Brink.dbe2896115e95e04a2a3.png",
     "static/media/Nha-Pham.png": "/static/media/Nha-Pham.59774fc2f42dfb7cd731.png",
     "static/media/Keiffer-Tan.png": "/static/media/Keiffer-Tan.5667ee30b369a75c6f5b.png",
+    "static/media/Arts_and_Sciences.jpg": "/static/media/Arts_and_Sciences.f5b25d9bfbd18dd0da23.jpg",
     "static/media/Tin-Pham.png": "/static/media/Tin-Pham.77701136fa68c3c8e796.png",
     "static/media/NSC_Marquee.jpg": "/static/media/NSC_Marquee.b821b8ca09f7c6493f9e.jpg",
+    "static/media/north-trees-campus.jpg": "/static/media/north-trees-campus.c2171ad183959d0fbc17.jpg",
     "static/media/Muhammadou-Drammeh.png": "/static/media/Muhammadou-Drammeh.f97bcc4351aaa4f76192.png",
     "static/media/Asfand-Tanwer.png": "/static/media/Asfand-Tanwer.275a638c6987e03feadc.png",
+    "static/media/example-desktop.png": "/static/media/example-desktop.fcbfaa0cab2808a6b18d.png",
     "static/media/Cameron-Shimmin.png": "/static/media/Cameron-Shimmin.2d5d1ddce9e5d1615005.png",
     "static/media/Nicholas-Wade-Miller.png": "/static/media/Nicholas-Wade-Miller.a4dc806a2370b222e5ac.png",
+    "static/media/example-portable.png": "/static/media/example-portable.02dda391c194f9791aad.png",
     "static/media/anon-profile-image.png": "/static/media/anon-profile-image.d5aac44a9642b3c838dc.png",
     "static/media/Luiz-Ramos.png": "/static/media/Luiz-Ramos.b076c1f2b3f57eff83f5.png",
     "static/media/Lars-Swenson.png": "/static/media/Lars-Swenson.527bd5a28a763671a555.png",
+    "static/media/north-seattle-tree-frogs.png": "/static/media/north-seattle-tree-frogs.4d987d4bc63454be5bb4.png",
+    "static/media/Elida-Ribeiro-de-Souza.png": "/static/media/Elida-Ribeiro-de-Souza.55e774d3654ee3e647a0.png",
     "static/media/nsc-app-dev-color.png": "/static/media/nsc-app-dev-color.fa03bc8b689291d21def.png",
     "index.html": "/index.html",
-    "main.7fd750e2.css.map": "/static/css/main.7fd750e2.css.map",
-    "main.481ed91d.js.map": "/static/js/main.481ed91d.js.map"
+    "main.30b27845.css.map": "/static/css/main.30b27845.css.map",
+    "main.d7a895b8.js.map": "/static/js/main.d7a895b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd750e2.css",
-    "static/js/main.481ed91d.js"
+    "static/css/main.30b27845.css",
+    "static/js/main.d7a895b8.js"
   ]
 }
