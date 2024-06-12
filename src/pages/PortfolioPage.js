@@ -1,36 +1,139 @@
 // src/pages/PortfolioPage.js
 import React from "react";
 import Project from "../components/Project";
+import { Helmet } from "react-helmet";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { flexChild, flexParent } from "./Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import page1 from "../images/projects/nsc_events/archived_events_admins_and_creators.png";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
   {
-    title: "Project One",
-    screenshots: [
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
+    title: "Construction",
+    company: "Pelletier Construction",
+    status: "In Development",
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: "https://github.com/alice",
+      },
+      {
+        icon: faLink,
+        link: "https://github.com/alice",
+      },
     ],
-    video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    about: "This is a brief description of Project One.",
-    liveDemo: "https://example.com/project-one",
-    github: "https://github.com/user/project-one",
+    description:
+      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    screenshot: page1,
   },
   {
-    title: "Project Two",
-    screenshots: ["https://via.placeholder.com/150"],
-    video: "",
-    about: "This is a brief description of Project Two.",
-    liveDemo: "https://example.com/project-two",
-    github: "https://github.com/user/project-two",
+    title: "Construction",
+    company: "Pelletier Construction",
+    status: "In Development",
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: "https://github.com/alice",
+      },
+      {
+        icon: faLink,
+        link: "https://github.com/alice",
+      },
+    ],
+    description:
+      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    screenshot: page1,
+  },
+  {
+    title: "Construction",
+    company: "Pelletier Construction",
+    status: "In Development",
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: "https://github.com/alice",
+      },
+      {
+        icon: faLink,
+        link: "https://github.com/alice",
+      },
+    ],
+    description:
+      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    screenshot: page1,
+  },
+  {
+    title: "Construction",
+    company: "Pelletier Construction",
+    status: "In Development",
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: "https://github.com/alice",
+      },
+      {
+        icon: faLink,
+        link: "https://github.com/alice",
+      },
+    ],
+    description:
+      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    screenshot: page1,
   },
 ];
 
 const PortfolioPage = () => {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.header}> Portfolio Page</h1>
-      {projects.map((project, index) => (
-        <Project key={index} {...project} />
-      ))}
+    <div>
+      <Helmet>
+        <title> NSC App Development - Portfolio </title>
+      </Helmet>
+      <Navbar />
+      <div style={{ minHeight: "calc(100vh - 95px)", height: "1px" }}>
+        <div
+          style={{ marginTop: "10vh", marginBottom: "10vh", height: "100%" }}
+        >
+          <div style={{ marginLeft: "2rem", marginRight: "2rem" }}>
+            <h1
+              style={{
+                fontSize: "48px",
+                fontWeight: "600",
+                marginBottom: "1rem",
+              }}
+            >
+              {" "}
+              Portfolio Page
+            </h1>
+            <div
+              style={{
+                fontSize: "28px",
+                marginBottom: "4rem",
+                color: "#858585",
+              }}
+            >
+              Since 2023 we have built a portfolio of student made products...
+            </div>
+          </div>
+
+          {projects.map((obj, index) => (
+            <PortfolioComponent
+              key={obj.index}
+              company={obj.company}
+              status={obj.status}
+              screenshot={obj.screenshot}
+              description={obj.description}
+              title={obj.title}
+              socialMedia={obj.socialMedia}
+              bgSwitch={index % 2 === 0}
+              index={index}
+            />
+          ))}
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 };
