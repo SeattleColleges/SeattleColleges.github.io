@@ -6,78 +6,73 @@ import Navbar from "../components/Navbar";
 import {flexChild, flexParent} from "./Contact";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons'
-import page1 from '../images/projects/nsc_events/archived_events_admins_and_creators.png';
+import page1 from '../images/projects/pelletier/pelletier.png'
+import page2 from '../images/projects/nsc_portfolio/homepage.png'
+import page3 from '../images/projects/belindas_closet/home_page_light.png'
+import page4 from '../images/projects/nsc_events/home_page_not_signed_in.png'
 import {faLink} from "@fortawesome/free-solid-svg-icons";
 
 
 const projects = [
   {
-    title: 'Construction',
-    company: 'Pelletier Construction',
+    title: 'Portfolio Site',
+    company: 'North Seattle College',
     status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/alice'
+        link: 'https://github.com/SeattleColleges/SeattleColleges.github.io'
       },
       {
         icon: faLink,
-        link: 'https://github.com/alice'
+        link: 'https://seattlecolleges.github.io/'
+      },
+    ],
+    description: "Our portfolio website, the website you are on, was built by our students in the Bachelor's program for North Seattle College.",
+    screenshot: page2
+  },
+  {
+    title: 'Construction',
+    company: 'Pelletier Construction',
+    status: 'Complete',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/PelletierConstructionGroup/PelletierConstructionGroup.github.io'
+      },
+      {
+        icon: faLink,
+        link: 'https://pelletierconstructiongroup.github.io/'
       },
     ],
     description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
     screenshot: page1
   },
   {
-    title: 'Construction',
-    company: 'Pelletier Construction',
+    title: 'Belinda\'s Closet',
+    company: 'North Seattle College',
     status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/alice'
-      },
-      {
-        icon: faLink,
-        link: 'https://github.com/alice'
+        link: 'https://github.com/SeattleColleges/belindas-closet-nextjs'
       },
     ],
     description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1
+    screenshot: page3
   },
   {
-    title: 'Construction',
-    company: 'Pelletier Construction',
+    title: 'North Seattle College Events',
+    company: 'North Seattle College',
     status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/alice'
-      },
-      {
-        icon: faLink,
-        link: 'https://github.com/alice'
+        link: 'https://github.com/SeattleColleges/nsc-events-nextjs'
       },
     ],
     description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1
-  },
-  {
-    title: 'Construction',
-    company: 'Pelletier Construction',
-    status: 'In Development',
-    socialMedia: [
-      {
-        icon: faGithub,
-        link: 'https://github.com/alice'
-      },
-      {
-        icon: faLink,
-        link: 'https://github.com/alice'
-      },
-    ],
-    description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1
+    screenshot: page4
   },
 ];
 
@@ -130,7 +125,7 @@ function PortfolioComponent(props) {
           className={`${props.bgSwitch ? "ps-sm-2" : "ps-sm-5"} xs-center`}
       >
         <div style={flexChild} className={"col-sm-6"}>
-          <img src={props.screenshot} style={{width: '100%'}} className={"shadow-sm"}/>
+          <img src={props.screenshot} style={{width: '100%'}} className={"shadow"}/>
         </div>
         <div style={{...flexChild, marginTop: "2rem"}} className={"col-sm-6 flex-xs-center"}>
           <h2 style={{fontSize: "28px", marginBottom: ".3rem"}}> {props.title} </h2>
