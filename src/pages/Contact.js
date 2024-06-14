@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import {Helmet} from "react-helmet";
-import {FormComponent} from "../components/form";
+import {FormComponent} from "../components/Form";
 // import {useState} from "react";
 // Commented out for now since useState is not being used
 

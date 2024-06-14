@@ -6,7 +6,6 @@ import NSCTREEFROG from "../images/north-seattle-tree-frogs.png";
 const Footer = () => {
   return (
     <div
-      className="footer"
       style={{
         display: "flex",
         flexDirection: "row",
