@@ -13,7 +13,7 @@ const Footer = () => {
         width: "auto",
         height: "120px",
         gap: "5rem",
-        backgroundColor: "#165db2",
+        backgroundColor: "#004da8",
         alignItems: "center",
         justifyContent: "space-evenly",
       }}
