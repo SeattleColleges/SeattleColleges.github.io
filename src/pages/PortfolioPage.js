@@ -1,11 +1,10 @@
 // src/pages/PortfolioPage.js
 import React from 'react';
-import Project from '../components/Project';
 import {Helmet} from "react-helmet";
 import Navbar from "../components/Navbar";
 import {flexChild, flexParent} from "./Contact";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import page1 from '../images/projects/pelletier/pelletier.png'
 import page2 from '../images/projects/nsc_portfolio/homepage.png'
 import page3 from '../images/projects/belindas_closet/home_page_light.png'
@@ -125,7 +124,7 @@ function PortfolioComponent(props) {
           className={`${props.bgSwitch ? "ps-sm-2" : "ps-sm-5"} xs-center`}
       >
         <div style={flexChild} className={"col-sm-6"}>
-          <img src={props.screenshot} style={{width: '100%'}} className={"shadow"}/>
+          <img src={props.screenshot} style={{width: '100%'}} className={"shadow"} />
         </div>
         <div style={{...flexChild, marginTop: "2rem"}} className={"col-sm-6 flex-xs-center"}>
           <h2 style={{fontSize: "28px", marginBottom: ".3rem"}}> {props.title} </h2>
@@ -146,16 +145,5 @@ function PortfolioComponent(props) {
       </div>
   )
 }
-
-const styles = {
-  container: {
-    padding: '32px',
-    backgroundColor: '#f9f9f9',
-  },
-  header: {
-    fontSize: '2rem',
-    marginBottom: '24px',
-  },
-};
 
 export default PortfolioPage;
