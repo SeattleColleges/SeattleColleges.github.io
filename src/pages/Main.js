@@ -5,7 +5,7 @@ import Desktop from '../images/example-desktop.png';
 import StudentThumbnail from "../components/StudentThumbnail";
 import studentData from '../students.json'
 import {Helmet} from "react-helmet";
-import { FormComponent } from "../components/form";
+import { FormComponent } from "../components/Form";
 
 const studentDatafiltered = studentData.students.filter((item)=>item.photo!=="anon-profile-image.png");
 const studentDataSlice = studentDatafiltered.slice(0,16); 
