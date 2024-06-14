@@ -31,7 +31,7 @@ const projects = [
     screenshot: page2
   },
   {
-    title: 'Construction',
+    title: 'Construction and Renovation Site',
     company: 'Pelletier Construction',
     status: 'Complete',
     socialMedia: [
@@ -124,7 +124,7 @@ function PortfolioComponent(props) {
           className={`${props.bgSwitch ? "ps-sm-2" : "ps-sm-5"} xs-center`}
       >
         <div style={flexChild} className={"col-sm-6"}>
-          <img src={props.screenshot} style={{width: '100%'}} className={"shadow"} />
+          <img src={props.screenshot} style={{width: '100%'}} className={"shadow"} alt={`Screenshot of the ${props.title} website for ${props.company}`} />
         </div>
         <div style={{...flexChild, marginTop: "2rem"}} className={"col-sm-6 flex-xs-center"}>
           <h2 style={{fontSize: "28px", marginBottom: ".3rem"}}> {props.title} </h2>
