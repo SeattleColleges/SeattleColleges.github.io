@@ -216,8 +216,8 @@ navbar
     flex-direction: column-reverse;
     padding-block: 2.5rem;
   }
-  .student-prev__gallery{
-    padding-inline-start: none;
+  .student-prev__gallery {
+    padding-inline-start: unset;
   }
   .student-prev__quote{
     font-size: 2rem;
