@@ -10,6 +10,7 @@ import page2 from '../images/projects/nsc_portfolio/homepage.png'
 import page3 from '../images/projects/belindas_closet/home_page_light.png'
 import page4 from '../images/projects/nsc_events/home_page_not_signed_in.png'
 import {faLink} from "@fortawesome/free-solid-svg-icons";
+import Footer from "../components/Footer";
 
 
 const projects = [
@@ -44,7 +45,7 @@ const projects = [
         link: 'https://pelletierconstructiongroup.github.io/'
       },
     ],
-    description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    description: "Pelletier Construction Group is a company based in the Seattle area specializing in home renovation. In 2023, Pelletier Construction had their website redesigned by bachelor's program students of the North Seattle College.",
     screenshot: page1
   },
   {
@@ -70,7 +71,7 @@ const projects = [
         link: 'https://github.com/SeattleColleges/nsc-events-nextjs'
       },
     ],
-    description: "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
+    description: "North Seattle College Events (NSC Events) is a student built website that allows all students to view upcoming events occurring at the college, and for administrators to add and manage event announcements through the website.",
     screenshot: page4
   },
 ];
@@ -104,7 +105,7 @@ const PortfolioPage = () => {
                   index={index}
               />
           ))}
-
+          <Footer />
         </div>
       </div>
     </div>
