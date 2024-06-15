@@ -84,7 +84,7 @@ export function FormComponent(props) {
                 { loading ? "Sending"  : "Send" }
             </button>
             <div style={{color: "#3E3E3E", marginTop: "1.2rem"}}>Or contact us by email at
-                northseattle.appdev@gmail.com or through our phone number at []
+                northseattle.appdev@gmail.com or through our phone number at [coming soon]
             </div>
         </form>
     );

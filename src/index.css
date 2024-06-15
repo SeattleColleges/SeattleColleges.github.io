@@ -183,10 +183,10 @@ navbar
 }
 .student-prev__quote{
   flex-basis: 30%;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   font-weight: 600;
-  max-width: 15ch;
+  max-width: 20ch;
 }
 .student-prev__gallery__grid{
   display: grid;

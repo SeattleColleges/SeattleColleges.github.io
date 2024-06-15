@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import Portable from "../images/example-portable.png";
-import Desktop from "../images/example-desktop.png";
+import belindas from '../images/belindasmobile.png';
+import pelletier from '../images/pelletier.png';
 import StudentThumbnail from "../components/StudentThumbnail";
 import studentData from "../students.json";
 import { Helmet } from "react-helmet";
@@ -49,20 +49,20 @@ function Main() {
             <img
               className="portfolio-div__examples__photo"
               alt="example portable web app"
-              src={Portable}
+              src={belindas}
             />
             <p className="portfolio-div__examples_description">
-              portable app name
+              Belinda's Closet
             </p>
           </div>
           <div className="portfolio-div__examples_entry">
             <img
               className="portfolio-div__examples__photo"
               alt="example desktop web app"
-              src={Desktop}
+              src={pelletier}
             />
             <p className="portfolio-div__examples_description">
-              desktop website name
+              Pelletier Construction
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ function Main() {
           </Link>
         </div>
         <p className="student-prev__quote">
-          "The Quick Brown Fox Jumps Over the Lazy Dog" - Nick Ramirez
+          "This was the best investment I could have made due to the confidence and experience gained through the program." - Nick Ramirez
         </p>
       </div>
       <div className="contact-div">
