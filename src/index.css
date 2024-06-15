@@ -318,9 +318,69 @@ navbar
  /* ==========
  students
  ========== */
-
- /* ==== student component ==== */
-
+.students-flexcolumn{
+  min-width: 200px;
+  width: 80vw;
+  max-width: 1900px;
+  margin-inline: auto;
+  padding-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-block-end: 2rem;
+}
+.students-flexcolumn__h1{
+  font-size: 3rem;
+  font-weight: 700;
+  width: 13ch;
+}
+.students-flexcolumn__student-flex-item{
+  display: flex;
+  flex-direction: row;
+  min-height: 20vh;
+  height: fit-content;
+  gap: 2rem;
+}
+.students-flexcolumn__student-flex-item__img{
+  width: 20vh;
+  height: auto;
+  aspect-ratio: 1;
+  max-height: 20vh;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.students-flexcolumn__student-flex-item__info-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block-start: .5rem;
+}
+.st-fl__st-fl-i__in-div__links{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.st-fl__st-fl-i__in-div__text__heading{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: .5rem;
+}
+.student-role{
+  color: gray;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+  .students-flexcolumn__student-flex-item{
+    /* display: flex; */
+    flex-direction: column;
+    /* min-height: 20vh;
+    height: fit-content;
+    gap: 2rem; */
+  }
+}
  /* ==========
  portfolio
  ========== */

@@ -119,12 +119,12 @@
         },
         { 
             "name": "Nickolas Ramirez",
-            "photo": "anon-profile-image.png",
-            "role": "Developer",
-            "about": "",
+            "photo": "Nickolas-Ramirez.png",
+            "role": "Product Owner / Lead Developer",
+            "about": "Application Development graduate with a passion for UI/UX and designing with a focus towards how others will interact with my application.",
             "email": "nickolasram@gmail.com",
             "github": "https://github.com/nickolasram",
-            "linkedin": ""
+            "linkedin": "www.linkedin.com/in/ramrezdev"
         },
         { 
             "name": "Ali Sharif",
