@@ -29,8 +29,7 @@ function Main() {
                 North Seattle Application Development
               </h1>
               <p className="hero__text__subheading">
-                Integer lacinia, mi quis laoreet ornare, nibh magna eleifend
-                arcu.
+                Preparing students for immediate employment in a high-demand field
               </p>
             </div>
           </div>
@@ -83,7 +82,7 @@ function Main() {
           </Link>
         </div>
         <p className="student-prev__quote">
-          "The Quick Brown Fox Jumps Over the Lazy Dog" -Someone Somewhere
+          "The Quick Brown Fox Jumps Over the Lazy Dog" - Nick Ramirez
         </p>
       </div>
       <div className="contact-div">
