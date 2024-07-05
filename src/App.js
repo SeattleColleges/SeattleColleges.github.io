@@ -5,8 +5,10 @@ import Contact from './pages/Contact'
 import About from './pages/About'
 import PortfolioPage from './pages/PortfolioPage'
 import StudentsPage from './pages/StudentsPage'
+import ReactGA from "react-ga4";
 
 function App() {
+  ReactGA.initialize("G-G27MNF49YJ");
   return (
     <Router>
         <Routes>
