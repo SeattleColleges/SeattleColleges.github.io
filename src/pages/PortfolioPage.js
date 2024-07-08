@@ -1,87 +1,78 @@
 // src/pages/PortfolioPage.js
-import React from "react";
-import Project from "../components/Project";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import {Helmet} from "react-helmet";
 import Navbar from "../components/Navbar";
+import {flexChild, flexParent} from "./Contact";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import page1 from '../images/projects/pelletier/pelletier.png'
+import page2 from '../images/projects/nsc_portfolio/homepage.png'
+import page3 from '../images/projects/belindas_closet/home_page_light.png'
+import page4 from '../images/projects/nsc_events/home_page_not_signed_in.png'
+import {faLink} from "@fortawesome/free-solid-svg-icons";
 import Footer from "../components/Footer";
-import { flexChild, flexParent } from "./Contact";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import page1 from "../images/projects/nsc_events/archived_events_admins_and_creators.png";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 
 const projects = [
   {
-    title: "Construction",
-    company: "Pelletier Construction",
-    status: "In Development",
+    title: 'Portfolio Site',
+    company: 'North Seattle College',
+    status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: "https://github.com/alice",
+        link: 'https://github.com/SeattleColleges/SeattleColleges.github.io'
       },
       {
         icon: faLink,
-        link: "https://github.com/alice",
+        link: 'https://seattlecolleges.github.io/'
       },
     ],
-    description:
-      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1,
+    description: "Our portfolio website, the website you are on, was built by our students in the Bachelor's program for North Seattle College.",
+    screenshot: page2
   },
   {
-    title: "Construction",
-    company: "Pelletier Construction",
-    status: "In Development",
+    title: 'Construction and Renovation Site',
+    company: 'Pelletier Construction',
+    status: 'Complete',
     socialMedia: [
       {
         icon: faGithub,
-        link: "https://github.com/alice",
+        link: 'https://github.com/PelletierConstructionGroup/PelletierConstructionGroup.github.io'
       },
       {
         icon: faLink,
-        link: "https://github.com/alice",
+        link: 'https://pelletierconstructiongroup.github.io/'
       },
     ],
-    description:
-      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1,
+    description: "Pelletier Construction Group is a company based in the Seattle area specializing in home renovation. In 2023, Pelletier Construction had their website redesigned by bachelor's program students of the North Seattle College.",
+    screenshot: page1
   },
   {
-    title: "Construction",
-    company: "Pelletier Construction",
-    status: "In Development",
+    title: 'Belinda\'s Closet',
+    company: 'North Seattle College',
+    status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: "https://github.com/alice",
-      },
-      {
-        icon: faLink,
-        link: "https://github.com/alice",
+        link: 'https://github.com/SeattleColleges/belindas-closet-nextjs'
       },
     ],
-    description:
-      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1,
+    description: "Belinda's closet is a store at North Seattle College which allows students to borrow and donate clothes for graduation. With the student built website, students will be able to see which clothes are available online.",
+    screenshot: page3
   },
   {
-    title: "Construction",
-    company: "Pelletier Construction",
-    status: "In Development",
+    title: 'North Seattle College Events',
+    company: 'North Seattle College',
+    status: 'In Development',
     socialMedia: [
       {
         icon: faGithub,
-        link: "https://github.com/alice",
-      },
-      {
-        icon: faLink,
-        link: "https://github.com/alice",
+        link: 'https://github.com/SeattleColleges/nsc-events-nextjs'
       },
     ],
-    description:
-      "Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Proin sagittis nisl rhoncus mattis rhoncus urna. Feugiat in fermentum posuere urna nec tincidunt. Eget duis at tellus at urna condimentum mattis pellentesque. ",
-    screenshot: page1,
+    description: "North Seattle College Events (NSC Events) is a student built website that allows all students to view upcoming events occurring at the college, and for administrators to add and manage event announcements through the website.",
+    screenshot: page4
   },
 ];
 
@@ -190,6 +181,7 @@ function PortfolioComponent(props) {
     </div>
   );
 }
+
 
 const styles = {
   container: {
