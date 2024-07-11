@@ -9,7 +9,6 @@ export function FormComponent(props) {
     const form = useRef();
 
     function onChange(value) {
-        console.log("Captcha value:", value);
         setCaptchaVal(value);
     }
 
@@ -79,7 +78,6 @@ export function FormComponent(props) {
                 onChange={onChange}
                 style={{marginBottom: "1rem"}}
             />
-            <input type="hidden" value={captchaVal} name="g-recaptcha-response" />
             <button
                 type={"submit"}
                 style={{
@@ -91,7 +89,7 @@ export function FormComponent(props) {
                     fontFamily: '"Inter", sans-serif',
                     fontWeight: 300,
                 }}
-                disabled={loading}
+                disabled={loading || !captchaVal}
                 className="contact-button"
             >
                 { loading ? "Sending"  : "Send" }
