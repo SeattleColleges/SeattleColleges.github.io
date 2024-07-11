@@ -1,10 +1,17 @@
 import * as React from 'react';
 import {useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
 export function FormComponent(props) {
     const [loading, setLoading] = useState(false);
+    const [captchaVal, setCaptchaVal] = useState(null);
     const form = useRef();
+
+    function onChange(value) {
+        console.log("Captcha value:", value);
+        setCaptchaVal(value);
+    }
 
     const sendEmail = (e) => {
         setLoading(true)
@@ -67,6 +74,12 @@ export function FormComponent(props) {
                 name={"message"}
                 disabled={loading}
             />
+            <ReCAPTCHA
+                sitekey="6Ld7Rg0qAAAAAHQ-Qgb_xDQijYN6gxIgLl_pnLyP"
+                onChange={onChange}
+                style={{marginBottom: "1rem"}}
+            />
+            <input type="hidden" value={captchaVal} name="g-recaptcha-response" />
             <button
                 type={"submit"}
                 style={{
