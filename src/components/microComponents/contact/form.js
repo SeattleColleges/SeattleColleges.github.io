@@ -3,7 +3,7 @@ import {useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
 
-export function FormComponent(props) {
+export function FormComponent() {
     const [loading, setLoading] = useState(false);
     const [captchaVal, setCaptchaVal] = useState(null);
     const form = useRef();
@@ -99,7 +99,7 @@ export function FormComponent(props) {
             </div>
         </form>
     );
-};
+}
 
 const textBoxFormatting = {
     fontSize: "1.1rem",
