@@ -12,8 +12,9 @@
   padding:0;
   box-sizing: border-box;
 }
-body{
+body, html {
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 
