@@ -162,6 +162,17 @@ navbar
   flex-direction: row;
   align-items: center;
 }
+.active-quarter {
+  background-color: #95CA59;
+  color: black;
+}
+.secondary-quarter {
+  color: #A6A6A6;
+}
+.secondary-quarter:hover {
+  transition: .125s all ease-in-out;
+  color: black;
+}
 .student-prev__gallery{
   flex-basis: 70%;
   display: flex;
