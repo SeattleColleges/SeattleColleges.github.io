@@ -7,8 +7,9 @@ import studentData from "../students.json";
 import { Helmet } from "react-helmet";
 import { FormComponent } from "../components/microComponents/contact/form";
 import Footer from "../components/Footer";
+import data from "../students.json";
 
-const studentDatafiltered = studentData.students.filter(
+const studentDatafiltered = Object.values(data).flat().filter(
   (item) => item.photo !== "anon-profile-image.png"
 );
 const studentDataSlice = studentDatafiltered.slice(0, 16);
