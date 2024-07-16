@@ -11,24 +11,24 @@ const Student = ({ name, photo, about, email, github, linkedin, role }) => {
         <div className='st-fl__st-fl-i__in-div__text'>
           <div className='st-fl__st-fl-i__in-div__text__heading'>
             <h2 style={styles.name}>{name}</h2>
-            <p className='student-role'>{role}</p>
+            <div className='student-role'>{role}</div>
           </div>
           <p style={styles.about}>{about}</p>
         </div>
         <div className='st-fl__st-fl-i__in-div__links'>
+          {linkedin &&
+              <a href={linkedin} target="_blank" rel="noopener noreferrer" style={{color: "black"}}>
+                <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{ fontSize: "32px", display: "inline"}}
+                />
+              </a>
+          }
           {github && 
-            <a href={github}  target="_blank" rel="noopener noreferrer" style={{color: "black"}}>
+            <a href={github} target="_blank" rel="noopener noreferrer" style={{color: "black"}}>
               <FontAwesomeIcon
                   icon={faGithub}
-                  style={{ fontSize: "40px", display: "inline" }}
-              />
-            </a>
-          }
-          {linkedin && 
-            <a href={linkedin} target="_blank" rel="noopener noreferrer" style={{color: "black"}}>
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                style={{ fontSize: "40px", display: "inline"}}
+                  style={{ fontSize: "32px", display: "inline" }}
               />
             </a>
           }
@@ -57,11 +57,11 @@ const styles = {
   },
   name: {
     fontSize: '1.5rem',
-    marginBottom: '8px',
+    marginBottom: '4px',
   },
   about: {
     fontSize: '1rem',
-    marginBottom: '8px',
+    marginTop: '14px',
   },
   contact: {
     fontSize: '1rem',
