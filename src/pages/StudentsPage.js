@@ -30,7 +30,7 @@ const StudentsPage = () => {
 
     useEffect(() => {
         /**
-         * Scrolls the user to each program section on the page
+         * Changes the color of the sidebar quarters on the page
          */
         const handleScroll = () => {
             setOffsets(divRefs.current.map(div => div ? div.offsetTop : 0).sort())
