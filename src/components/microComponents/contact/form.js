@@ -1,10 +1,16 @@
 import * as React from 'react';
 import {useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
-export function FormComponent(props) {
+export function FormComponent() {
     const [loading, setLoading] = useState(false);
+    const [captchaVal, setCaptchaVal] = useState(null);
     const form = useRef();
+
+    function onChange(value) {
+        setCaptchaVal(value);
+    }
 
     const sendEmail = (e) => {
         setLoading(true)
@@ -67,6 +73,11 @@ export function FormComponent(props) {
                 name={"message"}
                 disabled={loading}
             />
+            <ReCAPTCHA
+                sitekey="6Ld7Rg0qAAAAAHQ-Qgb_xDQijYN6gxIgLl_pnLyP"
+                onChange={onChange}
+                style={{marginBottom: "1rem"}}
+            />
             <button
                 type={"submit"}
                 style={{
@@ -78,7 +89,7 @@ export function FormComponent(props) {
                     fontFamily: '"Inter", sans-serif',
                     fontWeight: 300,
                 }}
-                disabled={loading}
+                disabled={loading || !captchaVal}
                 className="contact-button"
             >
                 { loading ? "Sending"  : "Send" }
@@ -88,7 +99,7 @@ export function FormComponent(props) {
             </div>
         </form>
     );
-};
+}
 
 const textBoxFormatting = {
     fontSize: "1.1rem",
