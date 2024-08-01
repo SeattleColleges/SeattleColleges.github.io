@@ -1,6 +1,15 @@
 {
     "students": [
         { 
+            "name": "Brandon Dombrowsky",
+            "photo": "Brandon-Dombrowsky.png",
+            "role": "Technical Program Manager",
+            "about": "BAS-AD 2023 program graduate currently working at Microsoft as a Technical Program Manager. Passionate about innovative problem-solving, strategizing for long-term growth, and inspiring greatness in my team, I am committed to leaving every environment better than I found it. My leadership philosophy revolves around mentoring and empowering my team to exceed even my own achievements.",
+            "email": "brandondombrowsky@gmail.com",
+            "github": "https://github.com/brandondombrowsky",
+            "linkedin": "https://www.linkedin.com/in/brandon-dombrowsky/"
+        },
+        { 
             "name": "Emily Brink",
             "photo": "Emily-Brink.png",
             "role": "Technical Program Manager",
