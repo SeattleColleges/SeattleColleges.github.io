@@ -21,11 +21,9 @@ const students = Object.values(Object.fromEntries(
 
 
 const StudentsPage = () => {
-    const [activeProgram, setActiveProgram] = useState(Object.keys(data)[0]);
-
     // Create a ref to store the array of div references
     const divRefs = useRef([]);
-    const [offsets, setOffsets] = useState();
+    const [activeProgram, setActiveProgram] = useState(Object.keys(data)[0]);
 
 
     useEffect(() => {
@@ -33,24 +31,22 @@ const StudentsPage = () => {
          * Changes the color of the sidebar quarters on the page
          */
         const handleScroll = () => {
-            setOffsets(divRefs.current.map(div => div ? div.offsetTop : 0).sort())
             const scrollPosition = window.scrollY || window.pageYOffset;
 
             // Default to 0
             let index = 0;
 
             // Finds the index of the offset quarter wrapper the user has scrolled too
-            if (offsets) {
-                for (let i = 0; i < offsets.length; i++) {
-                    if (scrollPosition >= offsets[i]) {
+            let offsets2 = divRefs.current.map(div => div ? div.offsetTop : 0).sort();
+            if (offsets2) {
+                for (let i = 0; i < offsets2.length; i++) {
+                    if (scrollPosition >= offsets2[i]) {
                         index = i;
                     } else {
                         break; // No need to continue if scrollPosition is less than current div position
                     }
                 }
             }
-
-            console.log(scrollPosition, index, offsets, divRefs.current.map(div => div ? div.offsetTop : 0).sort());
 
             // Uses the index found to get the name of the quarter wrapper
             setActiveProgram(Object.keys(data)[index])
