@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import React, {useEffect, useRef, useState} from "react";
 import Student from "../components/Student";
 import data from "../students.json";
+import {Helmet} from "react-helmet";
 
 // Per quarter, sort by people who've volunteered for more time-consuming roles, then those with a picture and description, then those with neither
 const students = Object.values(Object.fromEntries(
@@ -58,6 +59,9 @@ const StudentsPage = () => {
 
     return (
         <div>
+            <Helmet>
+                <title> NSC App Development - Students </title>
+            </Helmet>
             <Navbar/>
             <div className={"row"}>
                 <div style={{ marginTop: "12vh", position: "relative" }}>
