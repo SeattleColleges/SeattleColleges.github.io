@@ -66,7 +66,7 @@ const StudentsPage = () => {
             <div className={"row"}>
                 <div style={{ marginTop: "12vh", position: "relative" }}>
                     <div className={"sticky-div"}>
-                        {Object.keys(data).map((key, index) => (
+                        {Object.keys(data).map((key) => (
                             <a href={"#"+key} key={key} style={{ textDecoration: "none"}}>
                                 <div className={key === activeProgram ? "active-quarter" : "secondary-quarter"} style={{padding: "1rem", paddingLeft: "2rem", paddingRight: "4rem", fontWeight: "bold", marginBottom: "2rem"}}>
                                     {key === activeProgram? <>&bull;</> : <>&nbsp;</>} {key}
@@ -91,18 +91,6 @@ const StudentsPage = () => {
             <Footer/>
         </div>
     );
-};
-
-const styles = {
-    container: {
-        padding: "32px",
-        backgroundColor: "#f9f9f9",
-    },
-    header: {
-        fontSize: "2rem",
-        marginBottom: "24px",
-        textAlign: "center",
-    },
 };
 
 export default StudentsPage;
