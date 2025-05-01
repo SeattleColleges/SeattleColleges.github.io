@@ -1,6 +1,15 @@
 {
     "students": [
         { 
+            "name": "James Mathew",
+            "photo": "James-Mathew.jpeg",
+            "role": "Developer",
+            "about": "I’m currently pursuing a Bachelor’s degree in Application Development at North Seattle College, with an expected graduation date of June 2026. My academic focus is on both front-end and back-end development, with hands-on experience using technologies like React, Java, and Python. I'm passionate about building functional, user-friendly applications and continuously expanding my skills through coursework and collaborative projects.",
+            "email": "mathewj2009@gmail.com",
+            "github": "https://github.com/jmathew12",
+            "linkedin": "https://www.linkedin.com/in/jmathew12/"
+        },
+        { 
             "name": "Brandon Dombrowsky",
             "photo": "Brandon-Dombrowsky.png",
             "role": "Technical Program Manager",
