@@ -377,6 +377,14 @@
             "email": "AzariasA@protonmail.com",
             "github": "https://github.com/AzariasANeals",
             "linkedin": "https://www.linkedin.com/in/azarias-a-neals-64113a188/"
-        }
+        },
+        {
+            "name": "Beimnet Tesfaye",
+            "photo": "Beimnet-tesfaye.png",
+            "about": "Application development student passionate about building inclusive, user-friendly web applications using modern technologies like React and Java.",
+            "email": "beimnettesfaye@gmail.com",
+            "github": "https://github.com/beimnettes",
+            "linkedin": "https://www.linkedin.com/in/beimnet-tesfaye-220418291"
+          }
     ]
 }
