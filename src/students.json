@@ -368,6 +368,14 @@
             "email": "khanhtrinhvnguyen@gmail.com",
             "github": "https://github.com/LiteWilliamNguyen",
             "linkedin": "https://www.linkedin.com/in/khanhtrinh-nguyen/"
-        }
+        },
+        {
+            "name": "Beimnet Tesfaye",
+            "photo": "Beimnet-tesfaye.png",
+            "about": "Application development student passionate about building inclusive, user-friendly web applications using modern technologies like React and Java.",
+            "email": "beimnettesfaye@gmail.com",
+            "github": "https://github.com/beimnettes",
+            "linkedin": "https://www.linkedin.com/in/beimnet-tesfaye-220418291"
+          }
     ]
 }
