@@ -2,7 +2,7 @@
     "students": [
         { 
             "name": "James Mathew",
-            "photo": "James-Mathew.jpeg",
+            "photo": "James-Mathew.webp",
             "role": "Developer",
             "about": "I’m currently pursuing a Bachelor’s degree in Application Development at North Seattle College, with an expected graduation date of June 2026. My academic focus is on both front-end and back-end development, with hands-on experience using technologies like React, Java, and Python. I'm passionate about building functional, user-friendly applications and continuously expanding my skills through coursework and collaborative projects.",
             "email": "mathewj2009@gmail.com",
@@ -11,7 +11,7 @@
         },
         { 
             "name": "Brandon Dombrowsky",
-            "photo": "Brandon-Dombrowsky.png",
+            "photo": "Brandon-Dombrowsky.webp",
             "role": "Technical Program Manager",
             "about": "BAS-AD 2023 program graduate currently working at Microsoft as a Technical Program Manager. Passionate about innovative problem-solving, strategizing for long-term growth, and inspiring greatness in my team, I am committed to leaving every environment better than I found it. My leadership philosophy revolves around mentoring and empowering my team to exceed even my own achievements.",
             "email": "brandondombrowsky@gmail.com",
@@ -20,7 +20,7 @@
         },
         { 
             "name": "Emily Brink",
-            "photo": "Emily-Brink.png",
+            "photo": "Emily-Brink.webp",
             "role": "Technical Program Manager",
             "about": "Passionate about research and data driven collaborative approaches to technical project and program management.",
             "email": "brinkbrink@gmail.com",
@@ -29,7 +29,7 @@
         },
         { 
             "name": "Taylor Papke",
-            "photo": "Taylor-Papke.png",
+            "photo": "Taylor-Papke.webp",
             "role": "Product Owner / Technical Project Manager",
             "about": "NSC AD BAS 2024 Graduate. Passionate about leadership, teamwork and always doing our best!",
             "email": "taylorpapke.student@gmail.com",
@@ -38,7 +38,7 @@
         },
         { 
             "name": "Nicklas Di Pietro",
-            "photo": "Nicklas-Di-Pietro.png",
+            "photo": "Nicklas-Di-Pietro.webp",
             "role": "Technical Project Manager",
             "about": "I am a dedicated Software Developer fueled by an insatiable appetite for growth, both professionally and personally. I find joy in the journey of mastering both realms. Leveraging my knack for communication, I specialize in translating complex technical concepts into digestible insights for clients, ensuring clarity and comfort in every interaction. Beyond coding and problem-solving, you'll often find me on an adventure with my growing family or engaging in various game sessions during my downtime.",
             "email": "nicklasdipietro@gmail.com",
@@ -47,7 +47,7 @@
         },
         { 
             "name": "Hanan Osman",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Product Owner",
             "about": "I'm a senior in the AD BAS program at North Seattle College who aspires to be a front-end developer. My hobbies consist of reading, cafe-hopping, crocheting, gaming, and watching movies/shows.",
             "email": "hanan.osman@seattlecolleges.edu",
@@ -56,7 +56,7 @@
         },
         { 
             "name": "Keiffer Tan",
-            "photo": "Keiffer-Tan.png",
+            "photo": "Keiffer-Tan.webp",
             "role": "Product Owner",
             "about": "Hello! I love sweets treats and plants! ",
             "email": "keiffercraig.tan@seattlecolleges.edu",
@@ -65,7 +65,7 @@
         },
         { 
             "name": "Tin Pham",
-            "photo": "Tin-Pham.png",
+            "photo": "Tin-Pham.webp",
             "role": "Lead Developer",
             "about": "I am an enthusiastic software developer who is eager to see how software can enhance our daily lives.",
             "email": "nhattin55@gmail.com",
@@ -74,7 +74,7 @@
         },
         { 
             "name": "Robel Hailu",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Lead Developer",
             "about": "",
             "email": "robel.hailu@seattlecolleges.edu",
@@ -83,7 +83,7 @@
         },
         { 
             "name": "Jeremy Ward",
-            "photo": "Jeremy-Ward.png",
+            "photo": "Jeremy-Ward.webp",
             "role": "Lead Developer",
             "about": "Superb Software Engineer specializing in resilient backend architectures and infrastructure automation",
             "email": "jeremy.ward@seattlecentral.edu",
@@ -92,7 +92,7 @@
         },
         { 
             "name": "Nahom Worku",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Lead Developer",
             "about": "",
             "email": "nahom.worku2015@gmail.com",
@@ -101,7 +101,7 @@
         },
         { 
             "name": "Intisar Osman",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "I am currently majoring in Application Management at North Seattle College and plan to be a front-end developer. In my free time, I enjoy working on my crochet and crafts small business.",
             "email": "intisar.osman@seattlecolleges.edu",
@@ -110,7 +110,7 @@
         },
         { 
             "name": "Isaac J",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "isaac.jimenez@seattlecolleges.edu",
@@ -119,7 +119,7 @@
         },
         { 
             "name": "Cameron Shimmin",
-            "photo": "Cameron-Shimmin.png",
+            "photo": "Cameron-Shimmin.webp",
             "role": "Developer",
             "about": "Skilled Software Engineer with a robust understanding of languages and frameworks such as Node.js, React, Java, and more. Expertise spans Java, Web, and Mobile App Development, in addition to Cloud Computing.",
             "email": "cameron.shimmin@seattlecolleges.edu",
@@ -128,7 +128,7 @@
         },
         { 
             "name": "Muhammadou Drammeh",
-            "photo": "Muhammadou-Drammeh.png",
+            "photo": "Muhammadou-Drammeh.webp",
             "role": "Developer",
             "about": "I'm Muhammadou Drammeh, a North Seattle College alumnus with a Bachelor of Applied Science in Application Development. My goal is to thrive as a software engineer at a top-tier firm, where I can apply my passion for technology to innovate and create meaningful solutions.",
             "email": "muhammadou1drammeh@gmail.com",
@@ -137,7 +137,7 @@
         },
         { 
             "name": "Nickolas Ramirez",
-            "photo": "Nickolas-Ramirez.png",
+            "photo": "Nickolas-Ramirez.webp",
             "role": "Product Owner / Lead Developer",
             "about": "Application Development graduate with a passion for UI/UX and designing with a focus towards how others will interact with my application.",
             "email": "nickolasram@gmail.com",
@@ -146,7 +146,7 @@
         },
         { 
             "name": "Ali Sharif",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "I'm an Application development student with an interest in creating Java backend RESTful API's with a React frontend. Eager to apply my skills to real-world projects and make an impact.",
             "email": "alisharif29@gmail.com",
@@ -155,7 +155,7 @@
         },
         { 
             "name": "Kai Manasse",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "I am interesting on the Web Development.",
             "email": "kaimanasse15@gmail.com",
@@ -164,7 +164,7 @@
         },
         { 
             "name": "Kyle Kennedy",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "kylekenne@gmail.com",
@@ -173,7 +173,7 @@
         },
         { 
             "name": "Bennett Fife",
-            "photo": "Bennett-Fife.png",
+            "photo": "Bennett-Fife.webp",
             "role": "Developer",
             "about": "Aspiring application/software developer pursuing a bachelors in Application Development at North Seattle College.",
             "email": "bennett.fife@gmail.com",
@@ -182,7 +182,7 @@
         },
         { 
             "name": "Marco Bejarano Oseguera",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "Marco.bejaranooseg1@seattlecolleges.edu",
@@ -191,7 +191,7 @@
         },
         { 
             "name": "Holly Judge",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "Holly.Judge@Seattlecolleges.edu",
@@ -200,7 +200,7 @@
         },
         { 
             "name": "Edwin Ho",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "edwinh300@gmail.com",
@@ -209,7 +209,7 @@
         },
         { 
             "name": "Troy Pham",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "phamminhtuong2003@yahoo.com",
@@ -218,7 +218,7 @@
         },
         { 
             "name": "Xinran Zhang",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "Detail and result oriented software engineer with an emphasis in website development and database management.",
             "email": "joyzhangxran@gmail.com",
@@ -227,7 +227,7 @@
         },
         { 
             "name": "Omar Garmela",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "omar.garmela@seattlecolleges.edu",
@@ -236,7 +236,7 @@
         },
         { 
             "name": "Asfandyar Tanwer",
-            "photo": "Asfand-Tanwer.png",
+            "photo": "Asfand-Tanwer.webp",
             "role": "Developer",
             "about": "Hello, my name is Asfandyar Tanwer, I'm a student in the Application development program for North Seattle college and have been going to NSC for several years now. When I'm not coding or studying, I like to play video games, watch movies/TV and anime. Just like in coding, I love to problem-solve and strategize, which is why I have played video games since I was little. I hope to achieve great skills in this program to where I can apply them to real-world projects and have a good career. ",
             "email": "asfandtanwer@yahoo.com",
@@ -245,7 +245,7 @@
         },
         { 
             "name": "Bradley Charles",
-            "photo": "Bradley-Charles.png",
+            "photo": "Bradley-Charles.webp",
             "role": "Developer",
             "about": "Nestled among the rolling peaks of the Appalachian mountains, I discovered my passion for outdoor exploration at a young age. There's something exhilarating about embarking on a hike through winding trails, diving into the cool waters of mountain streams, or setting up camp under the star-studded canopy of the night sky. These experiences have become an integral part of my identity, offering solace and adventure in equal measure whenever the weather permits. Yet, when the elements prove less accommodating, I find comfort and camaraderie in the company of my wife and friends. Whether gathered around a table engaging in strategic battles of wit and luck in board games, or testing our skills and friendships in spirited card game competitions, laughter and friendly banter are always in abundance. In quieter moments, I immerse myself in the boundless worlds of literature and television. The allure of sci-fi and fantasy genres captivates my imagination, transporting me to distant galaxies, magical realms, and thrilling adventures beyond the confines of reality. Through books and screen alike, I find respite and inspiration, each story a portal to new possibilities and perspectives. In essence, whether traversing rugged landscapes or engaging in indoor pastimes, my life is enriched by a tapestry of experiences that celebrate the beauty of nature, the joy of companionship, and the limitless realms of imagination.",
             "email": "bradley.charles@seattlecolleges.edu",
@@ -254,7 +254,7 @@
         },
         { 
             "name": "Nicholas Wade Miller",
-            "photo": "Nicholas-Wade-Miller.png",
+            "photo": "Nicholas-Wade-Miller.webp",
             "role": "Developer",
             "about": "I have had a lot of varied interests in my life, including a love for computers and technology that started from a young age. I find that being a part of the Application Development program is a great fit for me. Though I may not know as much as a lot of my peers, I thoroughly enjoy the challenge and stepping into a realm where being a perpetual student is a must!",
             "email": "nwmiller.516@gmail.com",
@@ -263,7 +263,7 @@
         },
         { 
             "name": "Diego Cano",
-            "photo": "Diego-Cano.png",
+            "photo": "Diego-Cano.webp",
             "role": "Developer",
             "about": "Hi, I'm Diego! I'm a 24-year-old student at North Seattle College, where I'm diving deep into programming and computer science. Originally from Venezuela, I've embraced the vibrant culture of Seattle while balancing my studies with my job as a server at bar. My passion for technology drives me to constantly learn and improve my skills. When I'm not coding or working, I enjoy outdoor activities and staying fit.  Let's connect and collaborate on exciting projects!",
             "email": "dcano2810@gmail.com",
@@ -272,7 +272,7 @@
         },
         { 
             "name": "Alas Ali",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "My name is Alas Ali. I am a student in the Application Development program of NSC.  I like boxing, music, and hiking sometimes.",
             "email": "calasocali@outlook.com",
@@ -281,7 +281,7 @@
         },
         { 
             "name": "Lars Swenson",
-            "photo": "Lars-Swenson.png",
+            "photo": "Lars-Swenson.webp",
             "role": "Developer",
             "about": "Born and raised in Seattle, I recently majored in web development at Seattle Central College and am currently enrolled in the application development bachelor's program at North Seattle College.",
             "email": "lars.swenson@gmail.com",
@@ -290,7 +290,7 @@
         },
         { 
             "name": "Nha Minh Pham",
-            "photo": "Nha-Pham.png",
+            "photo": "Nha-Pham.webp",
             "role": "Developer",
             "about": "I am an international student from Vietnam. Currently a Junior in AD program at North. I am also a member of Student Leadership here.",
             "email": "phamminhnha2003@gmail.com",
@@ -299,7 +299,7 @@
         },
         { 
             "name": "Luiz Ramos",
-            "photo": "Luiz-Ramos.png",
+            "photo": "Luiz-Ramos.webp",
             "role": "Developer",
             "about": "I'm a Tableau/Business Intelligence Developer with 7 years of experience in data related roles, but back in university to finish my degree in application development and further my career.",
             "email": "luiz.matthew.ramos@gmail.com",
@@ -308,7 +308,7 @@
         },
         { 
             "name": "Biruk Beyene",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "Hi, my name is Biruk. I am a SharePoint Developer @ Pokémon. I love exploring new places, travelling, learning new things, and spending time with family and friends. In my free time, you can find me working on cars, hiking, or working on music production.",
             "email": "biruk.beyene@seattlecolleges.edu",
@@ -317,7 +317,7 @@
         },
         { 
             "name": "Jesse Caddell",
-            "photo": "Jesse-Caddell.png",
+            "photo": "Jesse-Caddell.webp",
             "role": "Technical Program Manager",
             "about": "I have a passion for working on games and apps. I currently have a fascination with twitch applications! I am a music lover and can be found at live events often.",
             "email": "jesse.caddell@wsu.edu",
@@ -326,7 +326,7 @@
         },
         { 
             "name": "Miguel Quintana Olivares",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "I'm from Chile and I love dogs more than persons.",
             "email": "miqo1385@gmail.com",
@@ -335,7 +335,7 @@
         },
         { 
             "name": "Lilith Caldwell",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "",
             "email": "",
@@ -344,7 +344,7 @@
         },
         { 
             "name": "Omar Aden",
-            "photo": "anon-profile-image.png",
+            "photo": "anon-profile-image.webp",
             "role": "Developer",
             "about": "Omar Aden, I'm doing a bachelor's degree in application development. I will graduate this summer",
             "email": "",
@@ -353,7 +353,7 @@
         },
         { 
             "name": "Elida Ribeiro de Souza",
-            "photo": "Elida-Ribeiro-de-Souza.png",
+            "photo": "Elida-Ribeiro-de-Souza.webp",
             "role": "Developer",
             "about": "Hello! I'm Elida Ribeiro de Souza, a dedicated and passionate student currently pursuing a degree in Applied Development at North Seattle College. With a keen interest in software development, data science, artificial intelligence, data analysis, deep learning, and machine learning, I am constantly seeking opportunities to learn and grow. I have a strong foundation in JavaScript, React, Python, SQL, Java, NumPy, and pandas. I recently earned my Google TensorFlow certification, further solidifying my expertise in deep learning. In my free time, I enjoy cooking, coding deep learning projects, and hiking. I am excited to connect with like-minded individuals and contribute to meaningful projects that make a difference.",
             "email": "",
@@ -362,7 +362,7 @@
         },
         {
             "name": "Khanh Trinh Nguyen",
-            "photo": "Khanh-Trinh-Nguyen.jpg",
+            "photo": "Khanh-Trinh-Nguyen.webp",
             "role": "Developer",
             "about": "Passionate Software Developer with experience in multiple programming languages and frameworks. Currently honing skills in web and mobile development while leveraging past expertise in networking to advance toward NetOps.",
             "email": "khanhtrinhvnguyen@gmail.com",
@@ -371,7 +371,7 @@
         },
         {
             "name": "Azarias A'Neals",
-            "photo": "Azarias-A'Neals.png",
+            "photo": "Azarias-A'Neals.webp",
             "role": "Developer",
             "about": "Hello! my name is Azarias A'Neals, and I am currently enrolled in North Seattle College's Application Development program. ",
             "email": "AzariasA@protonmail.com",
@@ -380,7 +380,7 @@
         },
         {
             "name": "Beimnet Tesfaye",
-            "photo": "Beimnet-tesfaye.png",
+            "photo": "Beimnet-tesfaye.webp",
             "about": "Application development student passionate about building inclusive, user-friendly web applications using modern technologies like React and Java.",
             "email": "beimnettesfaye@gmail.com",
             "github": "https://github.com/beimnettes",
