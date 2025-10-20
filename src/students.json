@@ -385,6 +385,14 @@
             "email": "beimnettesfaye@gmail.com",
             "github": "https://github.com/beimnettes",
             "linkedin": "https://www.linkedin.com/in/beimnet-tesfaye-220418291"
-          }
+        },
+        {
+            "name": "Luwam Habtu",
+            "photo": "Luwam-Habtu.webp",
+            "about": "I'm doing a bachelor's degree in application development. I will graduate this spring.",
+            "email": "luwamhabtu07@gmail.com",
+            "github": "https://github.com/luwamhabtu07",
+            "linkedin": "https://www.linkedin.com/in/luwam-habtu-803915300/"
+        }
     ]
 }
