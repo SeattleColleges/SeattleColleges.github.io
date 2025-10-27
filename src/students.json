@@ -402,6 +402,15 @@
             "email": "luwamhabtu07@gmail.com",
             "github": "https://github.com/luwamhabtu07",
             "linkedin": "https://www.linkedin.com/in/luwam-habtu-803915300/"
+        },
+        {
+            "name": "John Farnandez",
+            "photo": "John-Farnandez.webp",
+            "role": "Developer",
+            "about": "I'm currently a senior in the CS graduate program with a concentration in Data Science in the data science practicum. Hoping to learn more about working with clients through the AD projects.",
+            "email": "johnff0609@gmail.com",
+            "github": "https://github.com/johnff9",
+            "linkedin": "https:///www.linkedin.com/in/john-farnandez"
         }
     ]
 }
