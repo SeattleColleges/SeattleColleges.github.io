@@ -55,7 +55,7 @@ const projects = [
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/SeattleColleges/belindas-closet-nextjs'
+        link: 'https://github.com/SeattleColleges/belindas-closet-fullstack'
       },
     ],
     description: "Belinda's closet is a store at North Seattle College which allows students to borrow and donate clothes for graduation. With the student built website, students will be able to see which clothes are available online.",
