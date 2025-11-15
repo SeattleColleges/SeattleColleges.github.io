@@ -3,7 +3,7 @@ name: Sync Project Status
 on:
   issues:
     types: [opened, assigned, closed, reopened]
-  pull_request_target:
+  pull_request:
     types: [opened, ready_for_review, converted_to_draft, closed, reopened]
 
 jobs:
