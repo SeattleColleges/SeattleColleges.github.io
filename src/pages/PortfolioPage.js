@@ -68,7 +68,7 @@ const projects = [
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/SeattleColleges/nsc-events-nextjs'
+        link: 'https://github.com/luwamhabtu07/nsc-events-fullstack'
       },
     ],
     description: "North Seattle College Events (NSC Events) is a student built website that allows all students to view upcoming events occurring at the college, and for administrators to add and manage event announcements through the website.",
